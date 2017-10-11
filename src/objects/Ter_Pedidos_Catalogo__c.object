@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Este objeto contiene los pedidos del catalogo de productos que han sido elegidos por el ejecutivo comercial para ofrecer como obsequio para un contacto del cliente.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Cliente__c</fullName>
+        <description>Este campo contiene el cliente del contacto.</description>
+        <externalId>false</externalId>
+        <formula>Ter_Contacto__r.Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cliente</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Codigo_producto__c</fullName>
+        <description>Este campo contiene el código del producto elegido para obsequiar al contacto.</description>
+        <externalId>false</externalId>
+        <label>Código producto</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Contacto__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Campo en el que se registrara el Contacto al cual se le solicito el producto.</description>
+        <externalId>false</externalId>
+        <label>Contacto</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Pedidos Catalogo</relationshipLabel>
+        <relationshipName>Ter_Pedidos_Catalogo</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Ejecutivo_Comercial__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Campo en el que se almacenara el ejecutivo comercial que solicito el producto.</description>
+        <externalId>false</externalId>
+        <label>Ejecutivo Comercial</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Ter_Pedidos_Catalogo</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Fecha_de_Solicitud__c</fullName>
+        <description>Campo en el que se almacenara la fecha en la cual se realizo la solicitud del producto</description>
+        <externalId>false</externalId>
+        <label>Fecha de Solicitud</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Fecha_de_entrega__c</fullName>
+        <description>Este campo contiene la fecha de entrega del obsequio al contacto.</description>
+        <externalId>false</externalId>
+        <label>Fecha de entrega</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Nombre_del_Producto__c</fullName>
+        <description>Campo en el que se almacenara el nombre del producto que sera solicitado</description>
+        <externalId>false</externalId>
+        <label>Nombre del Producto</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Ocasion__c</fullName>
+        <description>Campo donde se almacenara la ocasión por la cual se realiza el pedido</description>
+        <externalId>false</externalId>
+        <label>Ocasión</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Pedido Catalogo</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Ter_Nombre_del_Producto__c</columns>
+        <columns>Ter_Contacto__c</columns>
+        <columns>Ter_Ejecutivo_Comercial__c</columns>
+        <columns>Ter_Ocasion__c</columns>
+        <columns>Ter_Fecha_de_Solicitud__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+    </listViews>
+    <nameField>
+        <displayFormat>PED-{0000000}-{YYYY}{MM}{DD}</displayFormat>
+        <label>No.Pedido Catalogo</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Pedidos Catalogo</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Ter_Nombre_del_Producto__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Cliente__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Ter_Fecha_de_Solicitud__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Ter_Fecha_de_entrega__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>TER_PCAT_001_Valida_propietario</fullName>
+        <active>true</active>
+        <description>Esta regla valida que el propietario no sea cambiado por algunos perfiles.</description>
+        <errorConditionFormula>AND( 
+ISCHANGED(OwnerId), 
+$Profile.Name &lt;&gt; &quot;Administrador del sistema&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador Funcional Plataforma&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador Técnico Plataforma&quot;, 
+$Profile.Name &lt;&gt; &quot;Supervisor II Aviación y Marinos&quot;, 
+$Profile.Name &lt;&gt; &quot;Ejecutivo de cuenta Aviación&quot;, 
+$Profile.Name &lt;&gt; &quot;Ejecutivo de cuenta Marinos&quot;, 
+$Profile.Name &lt;&gt; &quot;Director Industria&quot;, 
+$Profile.Name &lt;&gt; &quot;Ejecutivo de Cuenta Industria&quot;, 
+$Profile.Name &lt;&gt; &quot;Supervisor II Lubricantes&quot;, 
+$Profile.Name &lt;&gt; &quot;Jefe de Zona Lubricantes&quot;, 
+$Profile.Name &lt;&gt; &quot;Multisponsor&quot;, 
+$Profile.Name &lt;&gt; &quot;Usuarios Mercadeo&quot; 
+)</errorConditionFormula>
+        <errorMessage>TER-PCAT-001: Su perfil no permite modificar el propietario.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

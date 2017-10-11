@@ -1,0 +1,95 @@
+<apex:page docType="html-5.0" controller="Ter_TDC_Login_ctr" showHeader="false" sidebar="false">
+<apex:stylesheet value="{!$Resource.Ter_TDC_CSS}"/>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=11" ></meta>
+    <style type="text/css">
+
+      label {
+        width: 100px;
+      }
+
+      .loginDiv {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -178px;
+        margin-left: -250px;
+        width: 500px;
+        height: 356px;
+      }
+
+      img {
+        display: block;
+        margin: auto;
+      }
+      
+      .fields {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;   
+      }
+      
+      .fieldusuario {
+        margin-top: 50px;
+      }
+      
+      .fieldpassword {
+        margin-top: 10px;
+      }
+      
+      #password,#username{
+        width: 54%;
+      } 
+      
+      .boton {
+        background: #AFAFAF;
+        border: none;
+        color: white;
+        padding: 12px 45px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        outline: none;
+        cursor: pointer;
+      }
+
+      .boton.login {
+        float: right;
+        margin-right: -155px;
+        margin-top: 20px;
+      }
+    </style>
+    <script type="text/javascript">
+      function Login() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        loginActionF(username,password);
+      }
+
+    </script>
+  </head>
+
+  <apex:form >
+    <apex:pageMessages ></apex:pageMessages>
+    <div class="loginDiv">
+      <apex:image url="{!$Resource.LogoClubTerpel}" width="382" height="211"/>
+      <div class="fields fieldusuario">
+        <label for="username" class="titulos">Usuario</label>
+        <input class="fieldValue" type="email" name="username" id="username"/>
+      </div>
+      <div class="fields fieldpassword">
+        <label for="Password" class="titulos">Contraseña</label>
+        <input class="fieldValue" type="password" name="password" id="password"/>
+      </div>
+      <button type="button" class="boton login" onclick="Login();">Ingresar</button>
+    </div>
+
+    <apex:actionFunction action="{!login}" name="loginActionF">
+        <apex:param name="username" assignTo="{!username}" value="" />
+        <apex:param name="password" assignTo="{!password}" value="" />
+    </apex:actionFunction>
+
+  </apex:form>
+</apex:page>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Asignar_Calificaci_n_Pilar_Calidad_Operaci_n</name>
+        <label>Asignar Calificación Pilar Calidad Operación</label>
+        <locationX>1027</locationX>
+        <locationY>799</locationY>
+        <assignmentItems>
+            <assignToReference>ActaEncuestaObjeto.Ter_Calif_pilar_Calidad_Operaci_n2__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CalificacionPilarCalidadOperacionFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Actualizar_Acta_Encuesta</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_1</name>
+        <label>Sumar ContarA 1</label>
+        <locationX>677</locationX>
+        <locationY>743</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Prueba_en_el_surtidor_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_2</name>
+        <label>Sumar ContarA 2</label>
+        <locationX>685</locationX>
+        <locationY>600</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Prueba_Calidad_Fondo_del_Tanque_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_3</name>
+        <label>Sumar ContarA 3</label>
+        <locationX>715</locationX>
+        <locationY>469</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Calibraci_n_Equipos_de_Despacho_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_4</name>
+        <label>Sumar ContarA 4</label>
+        <locationX>715</locationX>
+        <locationY>342</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Calidad_prueba_fondo_del_tanque_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_5</name>
+        <label>Sumar ContarA 5</label>
+        <locationX>719</locationX>
+        <locationY>220</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Tanques_de_almacenamiento_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_1</name>
+        <label>Sumar ContarC 1</label>
+        <locationX>273</locationX>
+        <locationY>156</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Pruebas_en_el_Surtidor_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_2</name>
+        <label>Sumar ContarC 2</label>
+        <locationX>273</locationX>
+        <locationY>281</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Prueba_de_Calidad_fondo_del_tanque_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_3</name>
+        <label>Sumar ContarC 3</label>
+        <locationX>271</locationX>
+        <locationY>396</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Calibraci_n_equipos_de_despacho_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_4</name>
+        <label>Sumar ContarC 4</label>
+        <locationX>267</locationX>
+        <locationY>525</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Calidad_prueba_fondo_del_tanque_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_5</name>
+        <label>Sumar ContarC 5</label>
+        <locationX>269</locationX>
+        <locationY>663</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Tanques_de_Almacenamiento_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_1</name>
+        <label>Sumar ContarNA 1</label>
+        <locationX>1095</locationX>
+        <locationY>118</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Pruebas_en_el_surtidor_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_2</name>
+        <label>Sumar ContarNA 2</label>
+        <locationX>1097</locationX>
+        <locationY>270</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Prueba_de_calidad_fondo_del_tanque_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_3</name>
+        <label>Sumar ContarNA 3</label>
+        <locationX>1107</locationX>
+        <locationY>423</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Calibraci_n_equipos_de_despacho_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_4</name>
+        <label>Sumar ContarNA 4</label>
+        <locationX>1115</locationX>
+        <locationY>544</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Calidad_prueba_fondo_del_tanque_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_5</name>
+        <label>Sumar ContarNA 5</label>
+        <locationX>1123</locationX>
+        <locationY>687</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Asignar_Calificaci_n_Pilar_Calidad_Operaci_n</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Calibraci_n_Equipos_de_Despacho_con_Valor</name>
+        <label>Calibración Equipos de Despacho con Valor</label>
+        <locationX>489</locationX>
+        <locationY>343</locationY>
+        <defaultConnector>
+            <targetReference>Calidad_prueba_fondo_del_tanque_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Calibración Equipos de Despacho con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Calibraci_n_Equipos_de_Despacho_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Calibraci_n_equipos_de_despacho__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_4</targetReference>
+            </connector>
+            <label>Calibración Equipos de Despacho con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Calibraci_n_equipos_de_despacho_igual_C</name>
+        <label>Calibración equipos de despacho igual C</label>
+        <locationX>47</locationX>
+        <locationY>524</locationY>
+        <defaultConnector>
+            <targetReference>Calidad_prueba_fondo_del_tanque_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Calibración equipos de despacho igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Calibraci_n_equipos_de_despacho_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Calibraci_n_equipos_de_despacho__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_4</targetReference>
+            </connector>
+            <label>Calibración equipos de despacho igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Calibraci_n_equipos_de_despacho_igual_NA</name>
+        <label>Calibración equipos de despacho igual NA</label>
+        <locationX>913</locationX>
+        <locationY>557</locationY>
+        <defaultConnector>
+            <targetReference>Calidad_prueba_fondo_del_tanque_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Calibración equipos de despacho igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Calibraci_n_equipos_de_despacho_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Calibraci_n_equipos_de_despacho__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_4</targetReference>
+            </connector>
+            <label>Calibración equipos de despacho igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Calidad_prueba_fondo_del_tanque_con_valor</name>
+        <label>Calidad prueba fondo del tanque con valor</label>
+        <locationX>479</locationX>
+        <locationY>218</locationY>
+        <defaultConnector>
+            <targetReference>Tanques_de_almacenamiento_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Calidad prueba fondo del tanque con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Calidad_prueba_fondo_del_tanque_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Calidad_prueba_fondo_del_tanque__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_5</targetReference>
+            </connector>
+            <label>Calidad prueba fondo del tanque con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Calidad_prueba_fondo_del_tanque_igual_C</name>
+        <label>Calidad prueba fondo del tanque igual C</label>
+        <locationX>41</locationX>
+        <locationY>658</locationY>
+        <defaultConnector>
+            <targetReference>Tanques_de_Almacenamiento_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Calidad prueba fondo del tanque igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Calidad_prueba_fondo_del_tanque_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Calidad_prueba_fondo_del_tanque__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_5</targetReference>
+            </connector>
+            <label>Calidad prueba fondo del tanque igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Calidad_prueba_fondo_del_tanque_igual_NA</name>
+        <label>Calidad prueba fondo del tanque igual NA</label>
+        <locationX>915</locationX>
+        <locationY>683</locationY>
+        <defaultConnector>
+            <targetReference>Asignar_Calificaci_n_Pilar_Calidad_Operaci_n</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Calidad prueba fondo del tanque igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Calidad_prueba_fondo_del_tanque_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Calidad_prueba_fondo_del_tanque__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_5</targetReference>
+            </connector>
+            <label>Calidad prueba fondo del tanque igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Prueba_Calidad_Fondo_del_Tanque_con_valor</name>
+        <label>Prueba Calidad Fondo del Tanque con valor</label>
+        <locationX>495</locationX>
+        <locationY>476</locationY>
+        <defaultConnector>
+            <targetReference>Calibraci_n_Equipos_de_Despacho_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Prueba Calidad Fondo del Tanque con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Prueba_Calidad_Fondo_del_Tanque_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Prueba_de_calidad_fondo_del_tanque__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_3</targetReference>
+            </connector>
+            <label>Prueba Calidad Fondo del Tanque con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Prueba_de_Calidad_fondo_del_tanque_igual_C</name>
+        <label>Prueba de Calidad fondo del tanque igual C</label>
+        <locationX>49</locationX>
+        <locationY>398</locationY>
+        <defaultConnector>
+            <targetReference>Calibraci_n_equipos_de_despacho_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Resultado predeterminado]</defaultConnectorLabel>
+        <rules>
+            <name>Prueba_de_Calidad_fondo_del_tanque_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Prueba_de_calidad_fondo_del_tanque__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_3</targetReference>
+            </connector>
+            <label>Prueba de Calidad fondo del tanque igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Prueba_de_calidad_fondo_del_tanque_igual_NA</name>
+        <label>Prueba de calidad fondo del tanque igual NA</label>
+        <locationX>909</locationX>
+        <locationY>421</locationY>
+        <defaultConnector>
+            <targetReference>Calibraci_n_equipos_de_despacho_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Prueba de calidad fondo del tanque igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Prueba_de_calidad_fondo_del_tanque_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Prueba_de_calidad_fondo_del_tanque__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_3</targetReference>
+            </connector>
+            <label>Prueba de calidad fondo del tanque igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Prueba_en_el_surtidor_con_valor</name>
+        <label>Prueba en el surtidor con valor</label>
+        <locationX>503</locationX>
+        <locationY>601</locationY>
+        <defaultConnector>
+            <targetReference>Prueba_Calidad_Fondo_del_Tanque_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Prueba en el surtidor con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Prueba_en_el_surtidor_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Pruebas_en_el_surtidor__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_2</targetReference>
+            </connector>
+            <label>Prueba en el surtidor con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pruebas_en_el_Surtidor_igual_C</name>
+        <label>Pruebas en el Surtidor igual C</label>
+        <locationX>57</locationX>
+        <locationY>279</locationY>
+        <defaultConnector>
+            <targetReference>Prueba_de_Calidad_fondo_del_tanque_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Pruebas en el Surtidor igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Pruebas_en_el_Surtidor_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Pruebas_en_el_surtidor__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_2</targetReference>
+            </connector>
+            <label>Pruebas en el Surtidor igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pruebas_en_el_surtidor_igual_NA</name>
+        <label>Pruebas en el surtidor igual NA</label>
+        <locationX>901</locationX>
+        <locationY>277</locationY>
+        <defaultConnector>
+            <targetReference>Prueba_de_calidad_fondo_del_tanque_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Pruebas en el surtidor igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Pruebas_en_el_surtidor_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Pruebas_en_el_surtidor__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_2</targetReference>
+            </connector>
+            <label>Pruebas en el surtidor igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Tanques_de_Almacenamiento_con_valor</name>
+        <label>Tanques de Almacenamiento con valor</label>
+        <locationX>497</locationX>
+        <locationY>744</locationY>
+        <defaultConnector>
+            <targetReference>Prueba_en_el_surtidor_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Tanques de Almacenamiento con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Tanques_de_Almacenamiento_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Tanques_de_almacenamiento__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_1</targetReference>
+            </connector>
+            <label>Tanques de Almacenamiento con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Tanques_de_Almacenamiento_igual_C</name>
+        <label>Tanques de Almacenamiento igual C</label>
+        <locationX>53</locationX>
+        <locationY>155</locationY>
+        <defaultConnector>
+            <targetReference>Pruebas_en_el_Surtidor_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Resultado predeterminado]</defaultConnectorLabel>
+        <rules>
+            <name>Tanques_de_Almacenamiento_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Tanques_de_almacenamiento__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_1</targetReference>
+            </connector>
+            <label>Tanques de Almacenamiento igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Tanques_de_almacenamiento_igual_NA</name>
+        <label>Tanques de almacenamiento igual NA</label>
+        <locationX>893</locationX>
+        <locationY>123</locationY>
+        <defaultConnector>
+            <targetReference>Pruebas_en_el_surtidor_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Tanques de almacenamiento igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Tanques_de_almacenamiento_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Tanques_de_almacenamiento__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_1</targetReference>
+            </connector>
+            <label>Tanques de almacenamiento igual NA Si</label>
+        </rules>
+    </decisions>
+    <description>Calcula la Calificación del Pilar de Calidad de Operación en una Acta de Gestión Ambiental</description>
+    <formulas>
+        <name>CalificacionPilarCalidadOperacionFormula</name>
+        <dataType>Number</dataType>
+        <expression>({!ContarC}/({!ContarA}-{!ContarNA}))*5</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Calcular Calificación Pilar Calidad Operación {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Calcular Calificación Pilar Calidad Operación 3</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Buscar_Acta_Encuesta</name>
+        <label>Buscar Acta Encuesta</label>
+        <locationX>51</locationX>
+        <locationY>32</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Tanques_de_Almacenamiento_igual_C</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IdActaEncuesta</elementReference>
+            </value>
+        </filters>
+        <object>Ter_Acta_Encuesta__c</object>
+        <outputReference>ActaEncuestaObjeto</outputReference>
+        <queriedFields>Tanques_de_almacenamiento__c</queriedFields>
+        <queriedFields>Pruebas_en_el_surtidor__c</queriedFields>
+        <queriedFields>Prueba_de_calidad_fondo_del_tanque__c</queriedFields>
+        <queriedFields>Calibraci_n_equipos_de_despacho__c</queriedFields>
+        <queriedFields>Calidad_prueba_fondo_del_tanque__c</queriedFields>
+        <queriedFields>Ter_Comentarios_pilar_Calidad_Operacion__c</queriedFields>
+        <queriedFields>Ter_Calif_pilar_Calidad_Operaci_n2__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Actualizar_Acta_Encuesta</name>
+        <label>Actualizar Acta Encuesta</label>
+        <locationX>1229</locationX>
+        <locationY>795</locationY>
+        <inputReference>ActaEncuestaObjeto</inputReference>
+    </recordUpdates>
+    <startElementReference>Buscar_Acta_Encuesta</startElementReference>
+    <variables>
+        <name>ActaEncuestaObjeto</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Ter_Acta_Encuesta__c</objectType>
+    </variables>
+    <variables>
+        <name>ContarA</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContarC</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContarNA</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>IdActaEncuesta</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

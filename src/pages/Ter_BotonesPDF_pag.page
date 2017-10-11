@@ -1,0 +1,12 @@
+<apex:page standardController="Ter_Acta_Encuesta__c" extensions="Ter_GenerarPDF_ctr" showheader="false" sidebar="false" >
+    <apex:form id="theForm">
+        <apex:pageblock id="pb01">
+            <apex:pageblockButtons location="Top">
+                <apex:commandButton value="Generar PDF y Enviar Correo" action="{!enviarCorreo}"  rendered="{!blnMostrar}"/> 
+                <apex:commandButton value="Regresar" action="{!regresar}"/> 
+            </apex:pageblockButtons>
+            <apex:pageMessages />
+            <apex:iframe scrolling="true" id="theIframe" height="900px" rendered="{!blnMostrar}" src="https://c.na35.visual.force.com/apex/Ter_GenerarPDF_pag?scontrolCaching=1&id={!objActa.Id}"/>
+        </apex:pageblock>
+    </apex:form>
+</apex:page>

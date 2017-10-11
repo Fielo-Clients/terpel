@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Valores de las variables utilizadas para el control de Fraudes de Acumulación Club Terpel</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>F_CodigosCombustibleCorriente__c</fullName>
+        <description>Códigos de Productos correspondientes a Combustible Corriente separados por coma</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Códigos de Productos correspondientes a Combustible Corriente separados por coma</inlineHelpText>
+        <label>Códigos Combustible Corriente</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_CodigosCombustibleDiesel__c</fullName>
+        <description>Códigos de Productos correspondientes a Combustible Diesel separados por coma</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Códigos de Productos correspondientes a Combustible Diesel separados por coma</inlineHelpText>
+        <label>Códigos Combustible Diesel</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_CodigosCombustibleExtra__c</fullName>
+        <description>Códigos de Productos correspondientes a Combustible Extra separados por coma</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Códigos de Productos correspondientes a Combustible Extra separados por coma</inlineHelpText>
+        <label>Códigos Combustible Extra</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MaxCantidadVentasLiquido__c</fullName>
+        <description>Número entero de transacciones de acumulación máximas permitidas por usuario durante el mísmo día.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de transacciones de acumulación máximas permitidas por usuario durante el mísmo día.</inlineHelpText>
+        <label>Cantidad Máxima de Ventas (Líquidos)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MaxCantidadVentasTienda__c</fullName>
+        <description>Número entero de transacciones de acumulación máximas permitidas por usuario durante el mísmo día.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de transacciones de acumulación máximas permitidas por usuario durante el mísmo día.</inlineHelpText>
+        <label>Cantidad Máxima de Ventas (Tienda)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MaxGalonesCorriente__c</fullName>
+        <description>Número entero de galones máximos permitidos por venta</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de galones máximos permitidos por venta</inlineHelpText>
+        <label>Galones Máximos Combustible Corriente</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MaxGalonesDiesel__c</fullName>
+        <description>Número entero de galones máximos permitidos por venta</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de galones máximos permitidos por venta</inlineHelpText>
+        <label>Galones Máximos Combustible Diesel</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MaxGalonesExtra__c</fullName>
+        <description>Número entero de galones máximos permitidos por venta</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de galones máximos permitidos por venta</inlineHelpText>
+        <label>Galones Máximos Combustible Extra</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MaxInfracciones__c</fullName>
+        <description>Número entero de infracciones permitidas antes de bloquear al usuario.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de infracciones permitidas antes de bloquear al usuario.</inlineHelpText>
+        <label>Cantidad de infracciones permitidas</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MaxMontoVentaTienda__c</fullName>
+        <description>Número entero de COP máximo permitido para una transacción de origen Tienda</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de COP máximo permitido para una transacción de origen Tienda</inlineHelpText>
+        <label>Monto Máximo por Venta (Tienda)</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>F_MinTiempoEntreVentas__c</fullName>
+        <description>Número entero de segundos que deben pasar entre 2 transacciones de acumulación del mismo usuario</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de segundos que deben pasar entre 2 transacciones de acumulación del mismo usuario</inlineHelpText>
+        <label>Tiempo Mínimos entre Ventas (seg)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_PeriodoInfracciones__c</fullName>
+        <description>Número entero de días hacia atrás en los que tendrán en cuenta las infracciones cometidas.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Número entero de días hacia atrás en los que tendrán en cuenta las infracciones cometidas.</inlineHelpText>
+        <label>Período de infracciones</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Fielo - Variables de Fraude</label>
+    <visibility>Protected</visibility>
+</CustomObject>

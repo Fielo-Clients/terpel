@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Configuración personalizada para homologar los valores de las listas que lleguen en las integraciones</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Ter_Campo__c</fullName>
+        <description>Campo del objeto para el cual se esta homologando el valor</description>
+        <externalId>false</externalId>
+        <label>Campo</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Objeto__c</fullName>
+        <description>Objeto de salesforce para el cual se esta homologando la información</description>
+        <externalId>false</externalId>
+        <label>Objeto</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Valor_Externo__c</fullName>
+        <description>Valor que proviene del sistema externo</description>
+        <externalId>false</externalId>
+        <label>Valor Externo</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Valor_Homologado__c</fullName>
+        <description>Valor que se usa en Salesforce</description>
+        <externalId>false</externalId>
+        <label>Valor Homologado</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Homologacion Listas</label>
+    <visibility>Public</visibility>
+</CustomObject>

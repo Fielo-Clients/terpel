@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Este objeto contiene los registros de las estaciones de servicio de Terpel asociadas a sus operadores.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>F_Acumula__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Acumula</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_ClubTerpel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Habilitar para el programa de Fidelización &quot;Club Terpel&quot; (Fielo)</inlineHelpText>
+        <label>Club Terpel</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_Fechaultimatransaccion__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha última transacción</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>F_IdFidelizacion__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Id Fidelizacion</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>F_Reclama__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reclama</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_Redime__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Redime</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Operador__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Operador</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Operador</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Altoque__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Este campo indica si la estación de servicio contiene el servicio al toque.</description>
+        <externalId>false</externalId>
+        <label>Altoque</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Ciudad__c</fullName>
+        <description>Este campo contiene la ciudad de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Ciudad</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Codigo_sicom__c</fullName>
+        <description>Este campo contiene el código sicom de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Codigo sicom</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Codigo_unico__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Este campo contiene el código único de la estación de servicio.</description>
+        <externalId>true</externalId>
+        <label>Codigo unico</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Departamento__c</fullName>
+        <description>Este campo contiene el departamento geográfico al que la estación de servicio pertenece.</description>
+        <externalId>false</externalId>
+        <label>Departamento</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Deuna__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Este campo indica si la estación de servicio posee servicio de una.</description>
+        <externalId>false</externalId>
+        <label>Deuna</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Direccion__c</fullName>
+        <description>Este campo indica la dirección de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Dirección</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Dual__c</fullName>
+        <description>Este campo indica si la estación de servicio contiene el servicio dual.</description>
+        <externalId>false</externalId>
+        <label>Dual</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Estatus__c</fullName>
+        <description>Este campo contiene el estado de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Estatus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Activa</fullName>
+                    <default>false</default>
+                    <label>Activa</label>
+                </value>
+                <value>
+                    <fullName>Inactiva</fullName>
+                    <default>false</default>
+                    <label>Inactiva</label>
+                </value>
+                <value>
+                    <fullName>inactiva (ambiental)</fullName>
+                    <default>false</default>
+                    <label>inactiva (ambiental)</label>
+                </value>
+                <value>
+                    <fullName>inactiva otro</fullName>
+                    <default>false</default>
+                    <label>inactiva otro</label>
+                </value>
+                <value>
+                    <fullName>inactiva (juridico)</fullName>
+                    <default>false</default>
+                    <label>inactiva (juridico)</label>
+                </value>
+                <value>
+                    <fullName>inactiva cupo ley frontera</fullName>
+                    <default>false</default>
+                    <label>inactiva cupo ley frontera</label>
+                </value>
+                <value>
+                    <fullName>inactiva (prob. economicos)</fullName>
+                    <default>false</default>
+                    <label>inactiva (prob. economicos)</label>
+                </value>
+                <value>
+                    <fullName>inactiva sin contrato (pend. renov)</fullName>
+                    <default>false</default>
+                    <label>inactiva sin contrato (pend. renov)</label>
+                </value>
+                <value>
+                    <fullName>inactiva (certificación)</fullName>
+                    <default>false</default>
+                    <label>inactiva (certificación)</label>
+                </value>
+                <value>
+                    <fullName>inactiva sin contrato (orden publico)</fullName>
+                    <default>false</default>
+                    <label>inactiva sin contrato (orden publico)</label>
+                </value>
+                <value>
+                    <fullName>inactiva sin contrato (Extinción de dominio)</fullName>
+                    <default>false</default>
+                    <label>inactiva sin contrato (Extinción de dominio)</label>
+                </value>
+                <value>
+                    <fullName>inactiva (muerte prop)</fullName>
+                    <default>false</default>
+                    <label>inactiva (muerte prop)</label>
+                </value>
+                <value>
+                    <fullName>inactiva (zona contrabando)</fullName>
+                    <default>false</default>
+                    <label>inactiva (zona contrabando)</label>
+                </value>
+                <value>
+                    <fullName>inactiva sin contrato (juridico)</fullName>
+                    <default>false</default>
+                    <label>inactiva sin contrato (juridico)</label>
+                </value>
+                <value>
+                    <fullName>inactiva (voluntad prop.)</fullName>
+                    <default>false</default>
+                    <label>inactiva (voluntad prop.)</label>
+                </value>
+                <value>
+                    <fullName>inactiva (contraccion mercado)</fullName>
+                    <default>false</default>
+                    <label>inactiva (contraccion mercado)</label>
+                </value>
+                <value>
+                    <fullName>inactiva (embargo banco-no se compro)</fullName>
+                    <default>false</default>
+                    <label>inactiva (embargo banco-no se compro)</label>
+                </value>
+                <value>
+                    <fullName>inactiva sin contrato (prob. Economicos)</fullName>
+                    <default>false</default>
+                    <label>inactiva sin contrato (prob. Economicos)</label>
+                </value>
+                <value>
+                    <fullName>inactiva (orden publico)</fullName>
+                    <default>false</default>
+                    <label>inactiva (orden publico)</label>
+                </value>
+                <value>
+                    <fullName>inactiva (prob. vial)</fullName>
+                    <default>false</default>
+                    <label>inactiva (prob. vial)</label>
+                </value>
+                <value>
+                    <fullName>inactiva sin contrato (certificación)</fullName>
+                    <default>false</default>
+                    <label>inactiva sin contrato (certificación)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ter_Imagen__c</fullName>
+        <description>Este campo contiene la imagen de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Imagen</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Icónica</fullName>
+                    <default>false</default>
+                    <label>Icónica</label>
+                </value>
+                <value>
+                    <fullName>Retrofit</fullName>
+                    <default>false</default>
+                    <label>Retrofit</label>
+                </value>
+                <value>
+                    <fullName>Antigua</fullName>
+                    <default>false</default>
+                    <label>Antigua</label>
+                </value>
+                <value>
+                    <fullName>Estándar</fullName>
+                    <default>false</default>
+                    <label>Estándar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ter_Isla_de_motos__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Este campo indica si la estación de servicio posee el servicio de isla de motos.</description>
+        <externalId>false</externalId>
+        <label>Isla de motos</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Latitud__c</fullName>
+        <description>Este campo posee la latitud de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Latitud</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Longitud__c</fullName>
+        <description>Este campo contiene la longitud geográfica de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Longitud</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Marca__c</fullName>
+        <description>Este campo contiene la marca de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Marca</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Terpel</fullName>
+                    <default>false</default>
+                    <label>Terpel</label>
+                </value>
+                <value>
+                    <fullName>Esso</fullName>
+                    <default>false</default>
+                    <label>Esso</label>
+                </value>
+                <value>
+                    <fullName>Mobil</fullName>
+                    <default>false</default>
+                    <label>Mobil</label>
+                </value>
+                <value>
+                    <fullName>Texaco</fullName>
+                    <default>false</default>
+                    <label>Texaco</label>
+                </value>
+                <value>
+                    <fullName>Petrobrás</fullName>
+                    <default>false</default>
+                    <label>Petrobrás</label>
+                </value>
+                <value>
+                    <fullName>Petromil</fullName>
+                    <default>false</default>
+                    <label>Petromil</label>
+                </value>
+                <value>
+                    <fullName>Brio</fullName>
+                    <default>false</default>
+                    <label>Brio</label>
+                </value>
+                <value>
+                    <fullName>Biomax</fullName>
+                    <default>false</default>
+                    <label>Biomax</label>
+                </value>
+                <value>
+                    <fullName>Puma</fullName>
+                    <default>false</default>
+                    <label>Puma</label>
+                </value>
+                <value>
+                    <fullName>Zeuss</fullName>
+                    <default>false</default>
+                    <label>Zeuss</label>
+                </value>
+                <value>
+                    <fullName>Otra</fullName>
+                    <default>false</default>
+                    <label>Otra</label>
+                </value>
+                <value>
+                    <fullName>Gazel</fullName>
+                    <default>false</default>
+                    <label>Gazel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ter_Nombre_jefe_de_zona__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Este campo contiene el jefe de zona de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Nombre jefe de zona</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Estaciones_de_Servicio</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Propia__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Este campo indica si la estación de servicio es propia.</description>
+        <externalId>false</externalId>
+        <label>Propia</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Regional__c</fullName>
+        <description>Este campo contiene la regional de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Regional</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Antioquia</fullName>
+                    <default>false</default>
+                    <label>Antioquia</label>
+                </value>
+                <value>
+                    <fullName>Bucaramanga</fullName>
+                    <default>false</default>
+                    <label>Bucaramanga</label>
+                </value>
+                <value>
+                    <fullName>Centro</fullName>
+                    <default>false</default>
+                    <label>Centro</label>
+                </value>
+                <value>
+                    <fullName>Norte</fullName>
+                    <default>false</default>
+                    <label>Norte</label>
+                </value>
+                <value>
+                    <fullName>Occidente</fullName>
+                    <default>false</default>
+                    <label>Occidente</label>
+                </value>
+                <value>
+                    <fullName>Sabana</fullName>
+                    <default>false</default>
+                    <label>Sabana</label>
+                </value>
+                <value>
+                    <fullName>Sur</fullName>
+                    <default>false</default>
+                    <label>Sur</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ter_Reporte_1__c</fullName>
+        <description>Este campo contiene la url para el informe 1 de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Reporte 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Reporte_2__c</fullName>
+        <description>Este campo contiene el reporte 2 de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Reporte 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Reporte_3__c</fullName>
+        <description>Este campo contiene la url del reporte 3 de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Reporte 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Reporte_4__c</fullName>
+        <description>Este campo contiene la url del reporte 4 de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Reporte 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Reporte_5__c</fullName>
+        <description>Este campo contiene la url del reporte de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Reporte 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Reporte_6__c</fullName>
+        <description>Este campo contiene la url del reporte nro 6 de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Reporte 6</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Rumbo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Este campo indica si la estación de servicio contiene el servicio rumbo.</description>
+        <externalId>false</externalId>
+        <label>Rumbo</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Segmento__c</fullName>
+        <description>Este campo contiene el segmento de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Segmento</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EDS TERCEROS</fullName>
+                    <default>false</default>
+                    <label>EDS TERCEROS</label>
+                </value>
+                <value>
+                    <fullName>EDS OPESE</fullName>
+                    <default>false</default>
+                    <label>EDS OPESE</label>
+                </value>
+                <value>
+                    <fullName>EDS FRANQUICIADAS</fullName>
+                    <default>false</default>
+                    <label>EDS FRANQUICIADAS</label>
+                </value>
+                <value>
+                    <fullName>EDS PROPIAS (POD)</fullName>
+                    <default>false</default>
+                    <label>EDS PROPIAS (POD)</label>
+                </value>
+                <value>
+                    <fullName>EDS PROPIAS (POT)</fullName>
+                    <default>false</default>
+                    <label>EDS PROPIAS (POT)</label>
+                </value>
+                <value>
+                    <fullName>COMPETENCIA</fullName>
+                    <default>false</default>
+                    <label>COMPETENCIA</label>
+                </value>
+                <value>
+                    <fullName>COINVERSIÓN</fullName>
+                    <default>false</default>
+                    <label>COINVERSIÓN</label>
+                </value>
+                <value>
+                    <fullName>CORPORATIVA</fullName>
+                    <default>false</default>
+                    <label>CORPORATIVA</label>
+                </value>
+                <value>
+                    <fullName>FRANQUICIADA</fullName>
+                    <default>false</default>
+                    <label>FRANQUICIADA</label>
+                </value>
+                <value>
+                    <fullName>PROPIA</fullName>
+                    <default>false</default>
+                    <label>PROPIA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ter_Ultimos_pedidos__c</fullName>
+        <description>Este campo contiene la url para visualizar los pedidos de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Ultimos pedidos</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Ziclos__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Este campo indica si la estación de servicio contiene el servicio ziclos.</description>
+        <externalId>false</externalId>
+        <label>Ziclos</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Zona__c</fullName>
+        <description>Este campo contiene el número de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <label>Zona</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Estación de Servicio</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Ter_Zona__c</columns>
+        <columns>Ter_Codigo_unico__c</columns>
+        <columns>NAME</columns>
+        <columns>Ter_Ciudad__c</columns>
+        <columns>Ter_Departamento__c</columns>
+        <columns>Ter_Regional__c</columns>
+        <columns>Ter_Segmento__c</columns>
+        <columns>F_IdFidelizacion__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+        <language>es</language>
+    </listViews>
+    <listViews>
+        <fullName>Carlos_Sarasti_Zona_501</fullName>
+        <columns>Ter_Codigo_unico__c</columns>
+        <columns>NAME</columns>
+        <columns>Ter_Segmento__c</columns>
+        <columns>Ter_Departamento__c</columns>
+        <columns>Ter_Ciudad__c</columns>
+        <columns>Ter_Zona__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Ter_Marca__c</field>
+            <operation>equals</operation>
+            <value>Terpel</value>
+        </filters>
+        <filters>
+            <field>Ter_Zona__c</field>
+            <operation>equals</operation>
+            <value>501</value>
+        </filters>
+        <label>Carlos Sarasti - Zona 501</label>
+        <sharedTo>
+            <role>Administrador_Funcional</role>
+            <role>Jefe_de_Zona_501</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Ter_Mis_Estaciones_de_Servicio</fullName>
+        <columns>Ter_Zona__c</columns>
+        <columns>Ter_Codigo_unico__c</columns>
+        <columns>NAME</columns>
+        <columns>Ter_Ciudad__c</columns>
+        <columns>Ter_Departamento__c</columns>
+        <columns>Ter_Regional__c</columns>
+        <columns>Ter_Segmento__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Ter_Marca__c</field>
+            <operation>equals</operation>
+            <value>Terpel</value>
+        </filters>
+        <label>Mis Estaciones de Servicio</label>
+    </listViews>
+    <nameField>
+        <label>Nombre EDS</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Estaciones de Servicio</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.FIRST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Ter_Codigo_unico__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Ter_Ciudad__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Ter_Regional__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Ter_Segmento__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Fielo_EDS_IdFidelizacionRequerido</fullName>
+        <active>true</active>
+        <errorConditionFormula>F_ClubTerpel__c &amp;&amp; ISBLANK(F_IdFidelizacion__c)</errorConditionFormula>
+        <errorDisplayField>F_IdFidelizacion__c</errorDisplayField>
+        <errorMessage>Para poder habilitar el punto de venta en Club Terpel el campo Id Fidelización es Requerido</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Fielo_EDS_RestringirActualizacionName</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+ $Profile.Name = &apos;Fielo Backend User&apos;
+,ISCHANGED(Name) 
+)</errorConditionFormula>
+        <errorDisplayField>Name</errorDisplayField>
+        <errorMessage>Tu perfil no permite la edición del campo Nombre</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TER_EDS_001_Valida_propietario</fullName>
+        <active>true</active>
+        <description>Esta regla valida que el campo propietario no se modifique por algunos perfiles.</description>
+        <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+$Profile.Name &lt;&gt; &quot;Administrador del sistema&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador Funcional Plataforma&quot;,
+$Profile.Name &lt;&gt; &quot;Administrador Técnico Plataforma&quot;,
+$Profile.Name &lt;&gt; &quot;Administrador Funcional Comercial&quot;,
+$Profile.Name &lt;&gt; &quot;Cartera&quot;
+)</errorConditionFormula>
+        <errorMessage>TER-EDS-001: Su perfil no permite modificar el propietario.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

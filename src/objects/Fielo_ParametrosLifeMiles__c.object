@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Parámetros de las integraciones de LifeMiles</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>TER_ENDPOINT_REDENCION__c</fullName>
+        <description>EndPoint Redención</description>
+        <externalId>false</externalId>
+        <inlineHelpText>EndPoint Redención</inlineHelpText>
+        <label>EndPoint Redención</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TER_ENDPOINT_VM__c</fullName>
+        <description>EndPoint para el servicio de LifeMiles =&gt; Validate Member</description>
+        <externalId>false</externalId>
+        <inlineHelpText>EndPoint para el servicio de LifeMiles =&gt; Validate Member</inlineHelpText>
+        <label>EndPoint Validate Member</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TER_ENDPOINT_VST__c</fullName>
+        <description>EndPoint para el servico de LifeMiles =&gt; Validate Security Token</description>
+        <externalId>false</externalId>
+        <inlineHelpText>EndPoint para el servico de LifeMiles =&gt; Validate Security Token</inlineHelpText>
+        <label>EndPoint Validate Security Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TER_ENDPOINT__c</fullName>
+        <externalId>false</externalId>
+        <label>EndPoint Acumulación</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TER_PASSWORD__c</fullName>
+        <externalId>false</externalId>
+        <label>TER_PASSWORD</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TER_SENDER_CODE__c</fullName>
+        <externalId>false</externalId>
+        <label>TER_SENDER_CODE</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TER_TIMEOUT__c</fullName>
+        <externalId>false</externalId>
+        <label>TER_TIMEOUT</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TER_USERNAME__c</fullName>
+        <externalId>false</externalId>
+        <label>TER_USERNAME</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Fielo - Parámetros LifeMiles</label>
+    <visibility>Protected</visibility>
+</CustomObject>

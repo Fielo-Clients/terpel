@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Asignar_Calculo_Calificaci_n_Pilar_Ambiental_Operaci_n</name>
+        <label>Asignar Calculo Calificación Pilar Ambiental Operación</label>
+        <locationX>937</locationX>
+        <locationY>2265</locationY>
+        <assignmentItems>
+            <assignToReference>ActaEncuestaObjeto.Ter_Califi_pilar_ambiental_Operaci_n2__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CalcularCalificacionPilarAmbientalOperacion</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Actualizar_Acta_Encuesta_Objeto</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_1</name>
+        <label>Sumar ContarA 1</label>
+        <locationX>733</locationX>
+        <locationY>2259</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Canal_perimetral_zona_islas_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_10</name>
+        <label>Sumar ContarA 10</label>
+        <locationX>737</locationX>
+        <locationY>1127</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Bocas_tanques_de_almacenamiento_cerradas_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_11</name>
+        <label>Sumar ContarA 11</label>
+        <locationX>729</locationX>
+        <locationY>980</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Ausencia_de_s_lidos_en_spill_container_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_12</name>
+        <label>Sumar ContarA 12</label>
+        <locationX>727</locationX>
+        <locationY>870</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Ausencia_de_combust_en_pozo_de_monitoreo_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_13</name>
+        <label>Sumar ContarA 13</label>
+        <locationX>715</locationX>
+        <locationY>747</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Manejo_de_residuos_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_14</name>
+        <label>Sumar ContarA 14</label>
+        <locationX>713</locationX>
+        <locationY>607</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Prueba_de_tanques_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_15</name>
+        <label>Sumar ContarA 15</label>
+        <locationX>717</locationX>
+        <locationY>464</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Control_diario_de_inventarios_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_16</name>
+        <label>Sumar ContarA 16</label>
+        <locationX>705</locationX>
+        <locationY>335</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Tabla_de_aforo_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_17</name>
+        <label>Sumar ContarA 17</label>
+        <locationX>709</locationX>
+        <locationY>194</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Permiso_de_vertimientos_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_18</name>
+        <label>Sumar ContarA 18</label>
+        <locationX>699</locationX>
+        <locationY>77</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Bit_cora_ambiental_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_2</name>
+        <label>Sumar ContarA 2</label>
+        <locationX>733</locationX>
+        <locationY>2135</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Caja_de_contenci_n_de_equipos_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_3</name>
+        <label>Sumar ContarA 3</label>
+        <locationX>733</locationX>
+        <locationY>2000</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Fugas_en_v_lvula_de_impacto_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_4</name>
+        <label>Sumar ContarA 4</label>
+        <locationX>725</locationX>
+        <locationY>1879</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Pistolas_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_5</name>
+        <label>Sumar ContarA 5</label>
+        <locationX>729</locationX>
+        <locationY>1747</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Fugas_en_codo_giratorio_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_6</name>
+        <label>Sumar ContarA 6</label>
+        <locationX>727</locationX>
+        <locationY>1621</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Equipo_de_repuesta_a_derrames_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_7</name>
+        <label>Sumar ContarA 7</label>
+        <locationX>721</locationX>
+        <locationY>1506</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_8</name>
+        <label>Sumar ContarA 8</label>
+        <locationX>735</locationX>
+        <locationY>1391</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Caja_contenedora_de_bombas_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_9</name>
+        <label>Sumar ContarA 9</label>
+        <locationX>723</locationX>
+        <locationY>1248</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Salmuera_en_tanque_de_almacenamiento_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_1</name>
+        <label>Sumar ContarC 1</label>
+        <locationX>281</locationX>
+        <locationY>159</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Canal_perimetral_zona_islas_igual_a_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_10</name>
+        <label>Sumar ContarC 10</label>
+        <locationX>279</locationX>
+        <locationY>1211</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Bocas_tanques_de_almacenamiento_cerradas_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_11</name>
+        <label>Sumar ContarC 11</label>
+        <locationX>277</locationX>
+        <locationY>1343</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Ausencia_de_s_lidos_en_spill_container_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_12</name>
+        <label>Sumar ContarC 12</label>
+        <locationX>277</locationX>
+        <locationY>1453</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Ausencia_de_combust_en_pozo_de_monitoreo_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_13</name>
+        <label>Sumar ContarC 13</label>
+        <locationX>281</locationX>
+        <locationY>1579</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Manejo_de_residuos_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_14</name>
+        <label>Sumar ContarC 14</label>
+        <locationX>291</locationX>
+        <locationY>1697</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Prueba_de_tanques_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_15</name>
+        <label>Sumar ContarC 15</label>
+        <locationX>283</locationX>
+        <locationY>1813</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Control_diario_de_inventarios_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_16</name>
+        <label>Sumar ContarC 16</label>
+        <locationX>281</locationX>
+        <locationY>1931</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Tabla_de_aforo_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_17</name>
+        <label>Sumar ContarC 17</label>
+        <locationX>279</locationX>
+        <locationY>2054</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Permiso_de_vertimientos_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_18</name>
+        <label>Sumar ContarC 18</label>
+        <locationX>281</locationX>
+        <locationY>2171</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Bit_cora_ambiental_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_2</name>
+        <label>Sumar ContarC 2</label>
+        <locationX>289</locationX>
+        <locationY>279</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Caja_de_contenci_n_de_equipos_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_3</name>
+        <label>Sumar ContarC 3</label>
+        <locationX>289</locationX>
+        <locationY>396</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Fugas_en_v_lvula_de_impacto_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_4</name>
+        <label>Sumar ContarC 4</label>
+        <locationX>291</locationX>
+        <locationY>516</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Pistolas_igual_a_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_5</name>
+        <label>Sumar ContarC 5</label>
+        <locationX>283</locationX>
+        <locationY>635</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Fugas_en_codo_giratorio_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_6</name>
+        <label>Sumar ContarC 6</label>
+        <locationX>291</locationX>
+        <locationY>756</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Equipo_de_repuesta_a_derrames_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_7</name>
+        <label>Sumar ContarC 7</label>
+        <locationX>287</locationX>
+        <locationY>874</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_igual_a_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_8</name>
+        <label>Sumar ContarC 8</label>
+        <locationX>291</locationX>
+        <locationY>981</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Caja_contenedora_de_bombas_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_9</name>
+        <label>Sumar ContarC 9</label>
+        <locationX>287</locationX>
+        <locationY>1100</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Salmuera_en_tanque_de_almacenamiento_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA5</name>
+        <label>Sumar ContarNA5</label>
+        <locationX>1101</locationX>
+        <locationY>534</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Fugas_en_codo_giratorio_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_1</name>
+        <label>Sumar ContarNA 1</label>
+        <locationX>1087</locationX>
+        <locationY>22</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Canal_perimetral_zona_islas_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_10</name>
+        <label>Sumar ContarNA 10</label>
+        <locationX>1097</locationX>
+        <locationY>1139</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Bocas_tanques_de_almacenamiento_cerradas_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_11</name>
+        <label>Sumar ContarNA 11</label>
+        <locationX>1109</locationX>
+        <locationY>1270</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Ausencia_de_s_lidos_en_spill_container_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_12</name>
+        <label>Sumar ContarNA 12</label>
+        <locationX>1109</locationX>
+        <locationY>1397</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Ausencia_de_combust_en_pozo_de_monitoreo_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_13</name>
+        <label>Sumar ContarNA 13</label>
+        <locationX>1117</locationX>
+        <locationY>1517</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Manejo_de_residuos_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_14</name>
+        <label>Sumar ContarNA 14</label>
+        <locationX>1121</locationX>
+        <locationY>1646</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Prueba_de_tanques_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_15</name>
+        <label>Sumar ContarNA 15</label>
+        <locationX>1130</locationX>
+        <locationY>1761</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Control_diario_de_inventarios_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_16</name>
+        <label>Sumar ContarNA 16</label>
+        <locationX>1113</locationX>
+        <locationY>1881</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Tabla_de_aforo_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_17</name>
+        <label>Sumar ContarNA 17</label>
+        <locationX>1111</locationX>
+        <locationY>1995</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Permiso_de_vertimientos_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_18</name>
+        <label>Sumar ContarNA 18</label>
+        <locationX>1121</locationX>
+        <locationY>2138</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Asignar_Calculo_Calificaci_n_Pilar_Ambiental_Operaci_n</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_2</name>
+        <label>Sumar ContarNA 2</label>
+        <locationX>1105</locationX>
+        <locationY>150</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Caja_de_contenci_n_de_equipos_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_3</name>
+        <label>Sumar ContarNA 3</label>
+        <locationX>1103</locationX>
+        <locationY>275</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Fugas_en_v_lvula_de_impacto_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_4</name>
+        <label>Sumar ContarNA 4</label>
+        <locationX>1105</locationX>
+        <locationY>419</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Pistolas_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_6</name>
+        <label>Sumar ContarNA 6</label>
+        <locationX>1101</locationX>
+        <locationY>657</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Equipo_de_repuesta_a_derrames_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_7</name>
+        <label>Sumar ContarNA 7</label>
+        <locationX>1103</locationX>
+        <locationY>772</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_8</name>
+        <label>Sumar ContarNA 8</label>
+        <locationX>1103</locationX>
+        <locationY>898</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Caja_contenedora_de_bombas_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_9</name>
+        <label>Sumar ContarNA 9</label>
+        <locationX>1093</locationX>
+        <locationY>1023</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Salmuera_en_tanque_de_almacenamiento_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Ausencia_de_combust_en_pozo_de_monitoreo_con_Valor</name>
+        <label>Ausencia de combust en pozo de monitoreo con Valor</label>
+        <locationX>465</locationX>
+        <locationY>743</locationY>
+        <defaultConnector>
+            <targetReference>Manejo_de_residuos_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Ausencia de combust en pozo de monitoreo con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Ausencia_de_combust_en_pozo_de_monitoreo_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Ausencia_combustible_pozo_de_monit__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_13</targetReference>
+            </connector>
+            <label>Ausencia de combust en pozo de monitoreo con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Ausencia_de_combust_en_pozo_de_monitoreo_igual_C</name>
+        <label>Ausencia de combust en pozo de monitoreo igual C</label>
+        <locationX>33</locationX>
+        <locationY>1579</locationY>
+        <defaultConnector>
+            <targetReference>Manejo_de_residuos_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Ausencia de combust en pozo de monitoreo igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Ausencia_de_combust_en_pozo_de_monitoreo_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Ausencia_combustible_pozo_de_monit__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_13</targetReference>
+            </connector>
+            <label>Ausencia de combust en pozo de monitoreo igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Ausencia_de_combust_en_pozo_de_monitoreo_igual_NA</name>
+        <label>Ausencia de combust en pozo de monitoreo igual NA</label>
+        <locationX>921</locationX>
+        <locationY>1516</locationY>
+        <defaultConnector>
+            <targetReference>Manejo_de_residuos_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Ausencia de combust en pozo de monitoreo igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Ausencia_de_combust_en_pozo_de_monitoreo_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Ausencia_combustible_pozo_de_monit__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_13</targetReference>
+            </connector>
+            <label>Ausencia de combust en pozo de monitoreo igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Ausencia_de_s_lidos_en_spill_container_con_Valor</name>
+        <label>Ausencia de sólidos en spill container con Valor</label>
+        <locationX>469</locationX>
+        <locationY>873</locationY>
+        <defaultConnector>
+            <targetReference>Ausencia_de_combust_en_pozo_de_monitoreo_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Ausencia de sólidos en spill container con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Ausencia_de_s_lidos_en_spill_container_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ausencia_de_s_lidos_en_spill_container__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_12</targetReference>
+            </connector>
+            <label>Ausencia de sólidos en spill container con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Ausencia_de_s_lidos_en_spill_container_igual_C</name>
+        <label>Ausencia de sólidos en spill container igual C</label>
+        <locationX>31</locationX>
+        <locationY>1457</locationY>
+        <defaultConnector>
+            <targetReference>Ausencia_de_combust_en_pozo_de_monitoreo_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Ausencia de sólidos en spill container igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Ausencia_de_s_lidos_en_spill_container_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ausencia_de_s_lidos_en_spill_container__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_12</targetReference>
+            </connector>
+            <label>Ausencia de sólidos en spill container igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Ausencia_de_s_lidos_en_spill_container_igual_NA</name>
+        <label>Ausencia de sólidos en spill container igual NA</label>
+        <locationX>905</locationX>
+        <locationY>1404</locationY>
+        <defaultConnector>
+            <targetReference>Ausencia_de_combust_en_pozo_de_monitoreo_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Ausencia de sólidos en spill container igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Ausencia_de_s_lidos_en_spill_container_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ausencia_de_s_lidos_en_spill_container__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_12</targetReference>
+            </connector>
+            <label>Ausencia de sólidos en spill container igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Bit_cora_ambiental_con_Valor</name>
+        <label>Bitácora ambiental con Valor</label>
+        <locationX>521</locationX>
+        <locationY>2258</locationY>
+        <defaultConnector>
+            <targetReference>Canal_perimetral_zona_islas_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Bitácora ambiental con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Bit_cora_ambiental_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Bit_cora_ambiental__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_1</targetReference>
+            </connector>
+            <label>Bitácora ambiental con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Bit_cora_ambiental_igual_C</name>
+        <label>Bitácora ambiental igual C</label>
+        <locationX>53</locationX>
+        <locationY>159</locationY>
+        <defaultConnector>
+            <targetReference>Canal_perimetral_zona_islas_igual_a_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Resultado predeterminado]</defaultConnectorLabel>
+        <rules>
+            <name>Bit_cora_ambiental_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Bit_cora_ambiental__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_1</targetReference>
+            </connector>
+            <label>Bitácora ambiental igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Bit_cora_ambiental_igual_NA</name>
+        <label>Bitácora ambiental igual NA</label>
+        <locationX>911</locationX>
+        <locationY>18</locationY>
+        <defaultConnector>
+            <targetReference>Canal_perimetral_zona_islas_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Bitácora ambiental igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Bit_cora_ambiental_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Bit_cora_ambiental__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_1</targetReference>
+            </connector>
+            <label>Bitácora ambiental igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Bocas_tanques_de_almacenamiento_cerradas_con_Valor</name>
+        <label>Bocas tanques de almacenamiento cerradas con Valor</label>
+        <locationX>477</locationX>
+        <locationY>994</locationY>
+        <defaultConnector>
+            <targetReference>Ausencia_de_s_lidos_en_spill_container_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Bocas tanques de almacenamiento cerradas con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Bocas_tanques_de_almacenamiento_cerradas_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Bocas_tanques_de_almacenamiento_cerradas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_11</targetReference>
+            </connector>
+            <label>Bocas tanques de almacenamiento cerradas con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Bocas_tanques_de_almacenamiento_cerradas_igual_C</name>
+        <label>Bocas tanques de almacenamiento cerradas igual C</label>
+        <locationX>29</locationX>
+        <locationY>1340</locationY>
+        <defaultConnector>
+            <targetReference>Ausencia_de_s_lidos_en_spill_container_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Bocas tanques de almacenamiento cerradas igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Bocas_tanques_de_almacenamiento_cerradas_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Bocas_tanques_de_almacenamiento_cerradas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_11</targetReference>
+            </connector>
+            <label>Bocas tanques de almacenamiento cerradas igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Bocas_tanques_de_almacenamiento_cerradas_igual_NA</name>
+        <label>Bocas tanques de almacenamiento cerradas igual NA</label>
+        <locationX>915</locationX>
+        <locationY>1281</locationY>
+        <defaultConnector>
+            <targetReference>Ausencia_de_s_lidos_en_spill_container_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Bocas tanques de almacenamiento cerradas igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Bocas_tanques_de_almacenamiento_cerradas_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Bocas_tanques_de_almacenamiento_cerradas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_11</targetReference>
+            </connector>
+            <label>Bocas tanques de almacenamiento cerradas igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Caja_contenedora_de_bombas_con_Valor</name>
+        <label>Caja contenedora de bombas con Valor</label>
+        <locationX>479</locationX>
+        <locationY>1258</locationY>
+        <defaultConnector>
+            <targetReference>Salmuera_en_tanque_de_almacenamiento_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Caja contenedora de bombas con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Caja_contenedora_de_bombas_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Caja_contenedora_de_bombas_amb_ope__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_9</targetReference>
+            </connector>
+            <label>Caja contenedora de bombas con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Caja_contenedora_de_bombas_igual_C</name>
+        <label>Caja contenedora de bombas igual C</label>
+        <locationX>27</locationX>
+        <locationY>1104</locationY>
+        <defaultConnector>
+            <targetReference>Salmuera_en_tanque_de_almacenamiento_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Caja contenedora de bombas igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Caja_contenedora_de_bombas_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Caja_contenedora_de_bombas_amb_ope__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_9</targetReference>
+            </connector>
+            <label>Caja contenedora de bombas igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Caja_contenedora_de_bombas_igual_NA</name>
+        <label>Caja contenedora de bombas igual NA</label>
+        <locationX>909</locationX>
+        <locationY>1021</locationY>
+        <defaultConnector>
+            <targetReference>Salmuera_en_tanque_de_almacenamiento_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Caja contenedora de bombas igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Caja_contenedora_de_bombas_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Caja_contenedora_de_bombas_amb_ope__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_9</targetReference>
+            </connector>
+            <label>Caja contenedora de bombas igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Caja_de_contenci_n_de_equipos_con_Valor</name>
+        <label>Caja de contención de equipos con Valor</label>
+        <locationX>511</locationX>
+        <locationY>2007</locationY>
+        <defaultConnector>
+            <targetReference>Fugas_en_v_lvula_de_impacto_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Caja de contención de equipos con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Caja_de_contenci_n_de_equipos_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Caja_de_contenci_n_de_equipos__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_3</targetReference>
+            </connector>
+            <label>Caja de contención de equipos con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Caja_de_contenci_n_de_equipos_igual_C</name>
+        <label>Caja de contención de equipos igual C</label>
+        <locationX>36</locationX>
+        <locationY>403</locationY>
+        <defaultConnector>
+            <targetReference>Fugas_en_v_lvula_de_impacto_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Caja de contención de equipos igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Caja_de_contenci_n_de_equipos_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Caja_de_contenci_n_de_equipos__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_3</targetReference>
+            </connector>
+            <label>Caja de contención de equipos igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Caja_de_contenci_n_de_equipos_igual_NA</name>
+        <label>Caja de contención de equipos igual NA</label>
+        <locationX>913</locationX>
+        <locationY>283</locationY>
+        <defaultConnector>
+            <targetReference>Fugas_en_v_lvula_de_impacto_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Caja de contención de equipos igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Caja_de_contenci_n_de_equipos_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Caja_de_contenci_n_de_equipos__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_3</targetReference>
+            </connector>
+            <label>Caja de contención de equipos igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Canal_perimetral_zona_islas_con_Valor</name>
+        <label>Canal perimetral zona islas con Valor</label>
+        <locationX>511</locationX>
+        <locationY>2136</locationY>
+        <defaultConnector>
+            <targetReference>Caja_de_contenci_n_de_equipos_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Canal perimetral zona islas con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Canal_perimetral_zona_islas_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Canal_perimetral_zona_islas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_2</targetReference>
+            </connector>
+            <label>Canal perimetral zona islas con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Canal_perimetral_zona_islas_igual_a_C</name>
+        <label>Canal perimetral zona islas igual a C</label>
+        <locationX>49</locationX>
+        <locationY>278</locationY>
+        <defaultConnector>
+            <targetReference>Caja_de_contenci_n_de_equipos_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Canal perimetral zona islas igual a C No</defaultConnectorLabel>
+        <rules>
+            <name>Canal_perimetral_zona_islas_igual_a_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Canal_perimetral_zona_islas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_2</targetReference>
+            </connector>
+            <label>Canal perimetral zona islas igual a C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Canal_perimetral_zona_islas_igual_NA</name>
+        <label>Canal perimetral zona islas igual NA</label>
+        <locationX>915</locationX>
+        <locationY>153</locationY>
+        <defaultConnector>
+            <targetReference>Caja_de_contenci_n_de_equipos_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Canal perimetral zona islas igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Canal_perimetral_zona_islas_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Canal_perimetral_zona_islas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_2</targetReference>
+            </connector>
+            <label>Canal perimetral zona islas igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Control_diario_de_inventarios_con_Valor</name>
+        <label>Control diario de inventarios con Valor</label>
+        <locationX>459</locationX>
+        <locationY>326</locationY>
+        <defaultConnector>
+            <targetReference>Tabla_de_aforo_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Control diario de inventarios con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Control_diario_de_inventarios_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Control_diario_de_inventarios__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_16</targetReference>
+            </connector>
+            <label>Control diario de inventarios con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Control_diario_de_inventarios_igual_C</name>
+        <label>Control diario de inventarios igual C</label>
+        <locationX>33</locationX>
+        <locationY>1931</locationY>
+        <defaultConnector>
+            <targetReference>Tabla_de_aforo_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Control diario de inventarios igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Control_diario_de_inventarios_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Control_diario_de_inventarios__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_16</targetReference>
+            </connector>
+            <label>Control diario de inventarios igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Control_diario_de_inventarios_igual_NA</name>
+        <label>Control diario de inventarios igual NA</label>
+        <locationX>925</locationX>
+        <locationY>1881</locationY>
+        <defaultConnector>
+            <targetReference>Tabla_de_aforo_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Control diario de inventarios igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Control_diario_de_inventarios_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Control_diario_de_inventarios__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_16</targetReference>
+            </connector>
+            <label>Control diario de inventarios igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Equipo_de_repuesta_a_derrames_con_Valor</name>
+        <label>Equipo de repuesta a derrames con Valor</label>
+        <locationX>489</locationX>
+        <locationY>1508</locationY>
+        <defaultConnector>
+            <targetReference>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Equipo de repuesta a derrames con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Equipo_de_repuesta_a_derrames_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Equipo_de_repuesta_a_derrames__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_7</targetReference>
+            </connector>
+            <label>Equipo de repuesta a derrames con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Equipo_de_repuesta_a_derrames_igual_C</name>
+        <label>Equipo de repuesta a derrames igual C</label>
+        <locationX>25</locationX>
+        <locationY>872</locationY>
+        <defaultConnector>
+            <targetReference>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_igual_a_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Equipo de repuesta a derrames igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Equipo_de_repuesta_a_derrames_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Equipo_de_repuesta_a_derrames__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_7</targetReference>
+            </connector>
+            <label>Equipo de repuesta a derrames igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Equipo_de_repuesta_a_derrames_igual_NA</name>
+        <label>Equipo de repuesta a derrames igual NA</label>
+        <locationX>907</locationX>
+        <locationY>779</locationY>
+        <defaultConnector>
+            <targetReference>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Equipo de repuesta a derrames igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Equipo_de_repuesta_a_derrames_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Equipo_de_repuesta_a_derrames__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_7</targetReference>
+            </connector>
+            <label>Equipo de repuesta a derrames igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fugas_en_codo_giratorio_con_Valor</name>
+        <label>Fugas en codo giratorio con Valor</label>
+        <locationX>493</locationX>
+        <locationY>1626</locationY>
+        <defaultConnector>
+            <targetReference>Equipo_de_repuesta_a_derrames_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Fugas en codo giratorio con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Fugas_en_codo_giratorio_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Fugas_en_codo_giratorio__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_6</targetReference>
+            </connector>
+            <label>Fugas en codo giratorio con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fugas_en_codo_giratorio_igual_C</name>
+        <label>Fugas en codo giratorio igual C</label>
+        <locationX>27</locationX>
+        <locationY>759</locationY>
+        <defaultConnector>
+            <targetReference>Equipo_de_repuesta_a_derrames_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Fugas en codo giratorio igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Fugas_en_codo_giratorio_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Fugas_en_codo_giratorio__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_6</targetReference>
+            </connector>
+            <label>Fugas en codo giratorio igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fugas_en_codo_giratorio_igual_NA</name>
+        <label>Fugas en codo giratorio igual NA</label>
+        <locationX>911</locationX>
+        <locationY>663</locationY>
+        <defaultConnector>
+            <targetReference>Equipo_de_repuesta_a_derrames_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Fugas en codo giratorio igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Fugas_en_codo_giratorio_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Fugas_en_codo_giratorio__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_6</targetReference>
+            </connector>
+            <label>Fugas en codo giratorio igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fugas_en_v_lvula_de_impacto_con_Valor</name>
+        <label>Fugas en válvula de impacto con Valor</label>
+        <locationX>507</locationX>
+        <locationY>1885</locationY>
+        <defaultConnector>
+            <targetReference>Pistolas_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Fugas en válvula de impacto con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Fugas_en_v_lvula_de_impacto_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Fugas_en_v_lvula_de_impacto__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_4</targetReference>
+            </connector>
+            <label>Fugas en válvula de impacto con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fugas_en_v_lvula_de_impacto_igual_C</name>
+        <label>Fugas en válvula de impacto igual C</label>
+        <locationX>33</locationX>
+        <locationY>521</locationY>
+        <defaultConnector>
+            <targetReference>Pistolas_igual_a_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Fugas en válvula de impacto igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Fugas_en_v_lvula_de_impacto_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Fugas_en_v_lvula_de_impacto__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_4</targetReference>
+            </connector>
+            <label>Fugas en válvula de impacto igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fugas_en_v_lvula_de_impacto_igual_NA</name>
+        <label>Fugas en válvula de impacto igual NA</label>
+        <locationX>913</locationX>
+        <locationY>419</locationY>
+        <defaultConnector>
+            <targetReference>Pistolas_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Fugas en válvula de impacto igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Fugas_en_v_lvula_de_impacto_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Fugas_en_v_lvula_de_impacto__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_4</targetReference>
+            </connector>
+            <label>Fugas en válvula de impacto igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Manejo_de_residuos_con_Valor</name>
+        <label>Manejo de residuos con Valor</label>
+        <locationX>459</locationX>
+        <locationY>606</locationY>
+        <defaultConnector>
+            <targetReference>Prueba_de_tanques_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Manejo de residuos con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Manejo_de_residuos_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Manejo_de_residuos_amb_opera__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_14</targetReference>
+            </connector>
+            <label>Manejo de residuos con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Manejo_de_residuos_igual_C</name>
+        <label>Manejo de residuos igual C</label>
+        <locationX>33</locationX>
+        <locationY>1700</locationY>
+        <defaultConnector>
+            <targetReference>Prueba_de_tanques_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Manejo de residuos igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Manejo_de_residuos_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Manejo_de_residuos_amb_opera__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_14</targetReference>
+            </connector>
+            <label>Manejo de residuos igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Manejo_de_residuos_igual_NA</name>
+        <label>Manejo de residuos igual NA</label>
+        <locationX>917</locationX>
+        <locationY>1643</locationY>
+        <defaultConnector>
+            <targetReference>Prueba_de_tanques_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Manejo de residuos igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Manejo_de_residuos_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Manejo_de_residuos_amb_opera__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_14</targetReference>
+            </connector>
+            <label>Manejo de residuos igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Permiso_de_vertimientos_con_Valor</name>
+        <label>Permiso de vertimientos con Valor</label>
+        <locationX>463</locationX>
+        <locationY>73</locationY>
+        <defaultConnector>
+            <targetReference>Bit_cora_ambiental_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Permiso de vertimientos con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Permiso_de_vertimientos_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Permiso_de_vertimientos__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_18</targetReference>
+            </connector>
+            <label>Permiso de vertimientos con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Permiso_de_vertimientos_igual_C</name>
+        <label>Permiso de vertimientos igual C</label>
+        <locationX>43</locationX>
+        <locationY>2182</locationY>
+        <defaultConnector>
+            <targetReference>Bit_cora_ambiental_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Permiso de vertimientos igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Permiso_de_vertimientos_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Permiso_de_vertimientos__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_18</targetReference>
+            </connector>
+            <label>Permiso de vertimientos igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Permiso_de_vertimientos_igual_NA</name>
+        <label>Permiso de vertimientos igual NA</label>
+        <locationX>921</locationX>
+        <locationY>2131</locationY>
+        <defaultConnector>
+            <targetReference>Asignar_Calculo_Calificaci_n_Pilar_Ambiental_Operaci_n</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Permiso de vertimientos igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Permiso_de_vertimientos_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Permiso_de_vertimientos__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_18</targetReference>
+            </connector>
+            <label>Permiso de vertimientos igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pistolas_con_Valor</name>
+        <label>Pistolas con Valor</label>
+        <locationX>493</locationX>
+        <locationY>1749</locationY>
+        <defaultConnector>
+            <targetReference>Fugas_en_codo_giratorio_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Pistolas con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Pistolas_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Pistolas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_5</targetReference>
+            </connector>
+            <label>Pistolas con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pistolas_igual_a_C</name>
+        <label>Pistolas igual a C</label>
+        <locationX>33</locationX>
+        <locationY>641</locationY>
+        <defaultConnector>
+            <targetReference>Fugas_en_codo_giratorio_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Pistolas igual a C No</defaultConnectorLabel>
+        <rules>
+            <name>Pistolas_igual_a_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Pistolas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_5</targetReference>
+            </connector>
+            <label>Pistolas igual a C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pistolas_igual_NA</name>
+        <label>Pistolas igual NA</label>
+        <locationX>905</locationX>
+        <locationY>541</locationY>
+        <defaultConnector>
+            <targetReference>Fugas_en_codo_giratorio_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Pistolas igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Pistolas_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Pistolas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA5</targetReference>
+            </connector>
+            <label>Pistolas igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Prueba_de_tanques_con_Valor</name>
+        <label>Prueba de tanques con Valor</label>
+        <locationX>459</locationX>
+        <locationY>464</locationY>
+        <defaultConnector>
+            <targetReference>Control_diario_de_inventarios_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Resultado predeterminado]</defaultConnectorLabel>
+        <rules>
+            <name>Prueba_de_tanques_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Prueba_de_tanques__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_15</targetReference>
+            </connector>
+            <label>Prueba de tanques con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Prueba_de_tanques_igual_C</name>
+        <label>Prueba de tanques igual C</label>
+        <locationX>33</locationX>
+        <locationY>1821</locationY>
+        <defaultConnector>
+            <targetReference>Control_diario_de_inventarios_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Prueba de tanques igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Prueba_de_tanques_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Prueba_de_tanques__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_15</targetReference>
+            </connector>
+            <label>Prueba de tanques igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Prueba_de_tanques_igual_NA</name>
+        <label>Prueba de tanques igual NA</label>
+        <locationX>923</locationX>
+        <locationY>1759</locationY>
+        <defaultConnector>
+            <targetReference>Control_diario_de_inventarios_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Prueba de tanques igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Prueba_de_tanques_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Prueba_de_tanques__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_15</targetReference>
+            </connector>
+            <label>Prueba de tanques igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_con_Valor</name>
+        <label>Sólidos en TdeGr ZC y caja toma muestras con Valor</label>
+        <locationX>479</locationX>
+        <locationY>1383</locationY>
+        <defaultConnector>
+            <targetReference>Caja_contenedora_de_bombas_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Sólidos en TdeGr ZC y caja toma muestras con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Solidos_en_trampa_de_grasas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_8</targetReference>
+            </connector>
+            <label>Sólidos en TdeGr ZC y caja toma muestras con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_igual_a_C</name>
+        <label>Sólidos en TdeGr ZC y caja toma muestras igual a C</label>
+        <locationX>25</locationX>
+        <locationY>990</locationY>
+        <defaultConnector>
+            <targetReference>Caja_contenedora_de_bombas_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Sólidos en TdeGr ZC y caja toma muestras igual a C No</defaultConnectorLabel>
+        <rules>
+            <name>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_igual_a_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Solidos_en_trampa_de_grasas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_8</targetReference>
+            </connector>
+            <label>Sólidos en TdeGr ZC y caja toma muestras igual a C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_igual_NA</name>
+        <label>Sólidos en TdeGr ZC y caja toma muestras igual NA</label>
+        <locationX>909</locationX>
+        <locationY>902</locationY>
+        <defaultConnector>
+            <targetReference>Caja_contenedora_de_bombas_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Sólidos en TdeGr ZC y caja toma muestras igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>S_lidos_en_TdeGr_ZC_y_caja_toma_muestras_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Solidos_en_trampa_de_grasas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_8</targetReference>
+            </connector>
+            <label>Sólidos en TdeGr ZC y caja toma muestras igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Salmuera_en_tanque_de_almacenamiento_con_Valor</name>
+        <label>Salmuera en tanque de almacenamiento con Valor</label>
+        <locationX>475</locationX>
+        <locationY>1139</locationY>
+        <defaultConnector>
+            <targetReference>Bocas_tanques_de_almacenamiento_cerradas_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Salmuera en tanque de almacenamiento con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Salmuera_en_tanque_de_almacenamiento_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Salmuera_en_tanque_de_almacenamiento__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_10</targetReference>
+            </connector>
+            <label>Salmuera en tanque de almacenamiento con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Salmuera_en_tanque_de_almacenamiento_igual_C</name>
+        <label>Salmuera en tanque de almacenamiento igual C</label>
+        <locationX>23</locationX>
+        <locationY>1219</locationY>
+        <defaultConnector>
+            <targetReference>Bocas_tanques_de_almacenamiento_cerradas_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Salmuera en tanque de almacenamiento igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Salmuera_en_tanque_de_almacenamiento_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Salmuera_en_tanque_de_almacenamiento__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_10</targetReference>
+            </connector>
+            <label>Salmuera en tanque de almacenamiento igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Salmuera_en_tanque_de_almacenamiento_igual_NA</name>
+        <label>Salmuera en tanque de almacenamiento igual NA</label>
+        <locationX>907</locationX>
+        <locationY>1153</locationY>
+        <defaultConnector>
+            <targetReference>Bocas_tanques_de_almacenamiento_cerradas_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Salmuera en tanque de almacenamiento igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Salmuera_en_tanque_de_almacenamiento_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Salmuera_en_tanque_de_almacenamiento__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_10</targetReference>
+            </connector>
+            <label>Salmuera en tanque de almacenamiento igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Tabla_de_aforo_con_Valor</name>
+        <label>Tabla de aforo con Valor</label>
+        <locationX>459</locationX>
+        <locationY>180</locationY>
+        <defaultConnector>
+            <targetReference>Permiso_de_vertimientos_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Tabla de aforo con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Tabla_de_aforo_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Tabla_de_aforo__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_17</targetReference>
+            </connector>
+            <label>Tabla de aforo con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Tabla_de_aforo_igual_C</name>
+        <label>Tabla de aforo igual C</label>
+        <locationX>31</locationX>
+        <locationY>2059</locationY>
+        <defaultConnector>
+            <targetReference>Permiso_de_vertimientos_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Tabla de aforo igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Tabla_de_aforo_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Tabla_de_aforo__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_17</targetReference>
+            </connector>
+            <label>Tabla de aforo igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Tabla_de_aforo_igual_NA</name>
+        <label>Tabla de aforo igual NA</label>
+        <locationX>927</locationX>
+        <locationY>2005</locationY>
+        <defaultConnector>
+            <targetReference>Permiso_de_vertimientos_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Tabla de aforo igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Tabla_de_aforo_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Tabla_de_aforo__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_17</targetReference>
+            </connector>
+            <label>Tabla de aforo igual NA Si</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>CalcularCalificacionPilarAmbientalOperacion</name>
+        <dataType>Number</dataType>
+        <expression>({!ContarC}/({!ContarA}-{!ContarNA}))*5</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Calcular Calificación Pilar Ambiental Operación {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Calcular Calificación Pilar Ambiental Operación 12</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Buscar_Acta_Encuesta</name>
+        <label>Buscar Acta Encuesta</label>
+        <locationX>51</locationX>
+        <locationY>42</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Bit_cora_ambiental_igual_C</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IdActaEncuesta</elementReference>
+            </value>
+        </filters>
+        <object>Ter_Acta_Encuesta__c</object>
+        <outputReference>ActaEncuestaObjeto</outputReference>
+        <queriedFields>Bit_cora_ambiental__c</queriedFields>
+        <queriedFields>Canal_perimetral_zona_islas__c</queriedFields>
+        <queriedFields>Caja_de_contenci_n_de_equipos__c</queriedFields>
+        <queriedFields>Fugas_en_v_lvula_de_impacto__c</queriedFields>
+        <queriedFields>Pistolas__c</queriedFields>
+        <queriedFields>Fugas_en_codo_giratorio__c</queriedFields>
+        <queriedFields>Equipo_de_repuesta_a_derrames__c</queriedFields>
+        <queriedFields>Ter_Solidos_en_trampa_de_grasas__c</queriedFields>
+        <queriedFields>Ter_Caja_contenedora_de_bombas_amb_ope__c</queriedFields>
+        <queriedFields>Salmuera_en_tanque_de_almacenamiento__c</queriedFields>
+        <queriedFields>Bocas_tanques_de_almacenamiento_cerradas__c</queriedFields>
+        <queriedFields>Ausencia_de_s_lidos_en_spill_container__c</queriedFields>
+        <queriedFields>Ter_Ausencia_combustible_pozo_de_monit__c</queriedFields>
+        <queriedFields>Ter_Manejo_de_residuos_amb_opera__c</queriedFields>
+        <queriedFields>Prueba_de_tanques__c</queriedFields>
+        <queriedFields>Control_diario_de_inventarios__c</queriedFields>
+        <queriedFields>Tabla_de_aforo__c</queriedFields>
+        <queriedFields>Permiso_de_vertimientos__c</queriedFields>
+        <queriedFields>Ter_Comentarios_pilar_ambiental_Operacio__c</queriedFields>
+        <queriedFields>Ter_Califi_pilar_ambiental_Operaci_n2__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Actualizar_Acta_Encuesta_Objeto</name>
+        <label>Actualizar Acta Encuesta Objeto</label>
+        <locationX>1137</locationX>
+        <locationY>2265</locationY>
+        <inputReference>ActaEncuestaObjeto</inputReference>
+    </recordUpdates>
+    <startElementReference>Buscar_Acta_Encuesta</startElementReference>
+    <variables>
+        <name>ActaEncuestaObjeto</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Ter_Acta_Encuesta__c</objectType>
+    </variables>
+    <variables>
+        <name>ContarA</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContarC</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContarNA</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>IdActaEncuesta</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,84 @@
+<apex:component controller="Widget1API" layout="none">
+    <apex:attribute name="config" type="FieloCMS__Component__c" description="" />
+    <div class="{!config['FieloCMS__ComponentLibrary__r']['FieloCMS__CSSClasses__c']} {!config['FieloCMS__CSSClasses__c']}" data-componentid="{! config['Id'] }"  data-component-name="{!LOWER(SUBSTITUTE(config['FieloCMS__ComponentLibrary__r']['Name'],' ','-'))}">
+        <div class="component-title">MAPA DE <span class="color-amarillo">ESTACIONES DE SERVICIO</span></div>
+        <div class="mdl-grid fielo-row">
+            <div class="mdl-cell mdl-cell--12-col fielo-cell">
+                 <div id="map"></div>
+            </div>
+            <!--<div class="mdl-cell mdl-cell--4-col fielo-cell"></div>-->
+        </div>
+        <apex:includeScript value="/soap/ajax/21.0/connection.js"/>
+        <apex:includeScript value="/soap/ajax/21.0/apex.js"/>
+        
+        <style>
+           #map {
+            height: 400px;
+            width: 100%;
+           }
+        </style>
+       
+        <script>          
+          function initMap() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+                
+            } else {
+                var uluru = {lat: 4.711041, lng: -74.071948};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 5,
+                  center: uluru
+                });
+                addMarker(JSON.parse('{!fLocationJson}'), map);
+            }
+          }
+
+          function showPosition(position) {
+              var uluru = {lat: position.coords.latitude, lng: position.coords.longitude};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: uluru
+              });
+              addMarker(JSON.parse('{!fLocationJson}'), map);              
+          }
+
+          function addMarker(location, map) {
+            var markers = [];
+            // Add the marker at the clicked location, and add the next-available label
+            // from the array of alphabetical characters.
+            for (var i = 0; i < location.length; i++) { 
+              
+              var infowindow = new google.maps.InfoWindow();
+
+              var marker = new google.maps.Marker({
+                position: {lat: location[i].latitude, lng: location[i].longitude},
+                label: '',
+                map: map
+              });
+              markers.push(marker);
+
+              google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                  infowindow.setContent(location[i].name + ',</br> ' + location[i].address + ',</br> ' + location[i].city);
+                  infowindow.open(map, marker);
+                }
+              })(marker, i));
+            } 
+            var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+          }
+
+        </script>
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVfpepKO2EMsmstYZm7EJqiDM716Kosho&callback=initMap" ></script>
+        <!-- async defer -->
+
+
+        <!-- <apex:form>
+          <apex:actionFunction name="showDetail" action="{!estacionDetail}" reRender="">
+            <apex:param name="firstParam" value="{!fIdEstacion}"/>
+          </apex:actionFunction>
+        </apex:form> -->
+    
+    </div>
+</apex:component>

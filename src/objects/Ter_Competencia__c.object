@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Este objeto contiene las competencias de las EDS.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Ter_Codigo_unico__c</fullName>
+        <description>Este campo contiene el código único de la EDS competencia.</description>
+        <externalId>false</externalId>
+        <formula>Ter_Nombre_EDS__r.Ter_Codigo_unico__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Código único</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Marca__c</fullName>
+        <description>Este campo contiene la marca de la EDS competencia.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Terpel&quot;), &quot;Terpel&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Esso&quot;), &quot;Esso&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Mobil&quot;), &quot;Mobil&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Texaco&quot;), &quot;Texaco&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Petrobrás&quot;), &quot;Petrobrás&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Petromil&quot;), &quot;Petromil&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Brio&quot;), &quot;Brio&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Biomax&quot;), &quot;Biomax&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Puma&quot;), &quot;Puma&quot;,
+IF(ISPICKVAL(Ter_Nombre_EDS__r.Ter_Marca__c, &quot;Zeuss&quot;), &quot;Zeuss&quot;,
+&quot;NA&quot;))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Marca</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Nombre_EDS__c</fullName>
+        <description>Este campo corresponde a la asociación de la EDS.</description>
+        <externalId>false</externalId>
+        <label>Nombre EDS</label>
+        <referenceTo>Ter_Estacion_de_Servicio__c</referenceTo>
+        <relationshipLabel>Competencias</relationshipLabel>
+        <relationshipName>Competencias</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Ter_Nombre_EDS_competencia__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Ter_Nombre_EDS_competencia</description>
+        <externalId>false</externalId>
+        <label>Nombre EDS competencia</label>
+        <referenceTo>Ter_Estacion_de_Servicio__c</referenceTo>
+        <relationshipLabel>Competencias (Nombre EDS competencia)</relationshipLabel>
+        <relationshipName>Competencias1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Competencia</label>
+    <nameField>
+        <displayFormat>COM-{000000}-{DD}{MM}{YYYY}</displayFormat>
+        <label>No. Competencia</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Competencias</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

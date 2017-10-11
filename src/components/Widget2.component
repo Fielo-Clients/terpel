@@ -1,0 +1,41 @@
+<apex:component controller="Widget2API" layout="none" allowDML="true">
+    <apex:attribute name="config" type="FieloCMS__Component__c" description="" />
+    <div class="{!config['FieloCMS__ComponentLibrary__r']['FieloCMS__CSSClasses__c']} {!config['FieloCMS__CSSClasses__c']}" data-componentid="{! config['Id'] }"  data-component-name="{!LOWER(SUBSTITUTE(config['FieloCMS__ComponentLibrary__r']['Name'],' ','-'))}">
+        
+        <c:ActionStatus />
+        <apex:panelGroup layout="none" id="panel-geral">
+            <apex:form >
+                <!-- <apex:pageMessages/> -->
+                
+                <div class="label"><apex:outputText value="{!$Label.Fielo_TarjetaPerfilTerpel}" escape="false"></apex:outputText></div>
+                <div style="clear:none; overflow:auto">
+                    <div style="float:left"><apex:inputText styleClass="input" id="tarjeta-asignar" value="{!fNumTarjetaAsignar}" disabled="{!fMember.F_AsignarTarjetaPreinscrita__c != null}" maxlength="13"/></div>
+                    <div style="float:left; margin:0 20px;">
+                        <apex:panelGroup layout="none" rendered="{!fMember.F_AsignarTarjetaPreinscrita__c == null}">
+                            <apex:commandButton styleClass="btn btnRed" value="Validar" id="searchTarjeta" action="{!searchTarjeta}" reRender="panel-geral"/>
+                        </apex:panelGroup>
+                    </div>
+                    <div style="float:left; padding: 6px 0;">
+                        <apex:outputText value="{!fMsgError}"/>
+                        <apex:outputText value="{!fMsgInfo}" styleClass="puntos"/>
+                    </div>
+                </div>
+                
+                <div style="margin: 20px 0; padding: 20px 0; border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc">
+                    <div class="label"><apex:outputLabel value="Tipo de Vehículo: " for="tipo-vehiculo"/></div>
+                    <div><apex:inputField styleClass="input multi" id="tipo-vehiculo" value="{!fMember.F_TipoVehiculo__c}"/></div>
+                    
+                    <div class="label"><apex:outputLabel value="Operador Celular: " for="operador-celular"/></div>
+                    <div><apex:inputField styleClass="input" id="operador-celular" value="{!fMember.F_OperadorCelular__c}"/></div>
+                </div>
+                
+                <div style="text-align: center">
+                    <apex:commandButton styleClass="btn btnRed" value="{!$Label.Fielo_PerfilTerpelGuardar}" id="saveButton" action="{!save}" reRender="panel-geral" status="loading"/>
+                </div>
+                
+            </apex:form>
+        </apex:panelGroup>
+        
+        
+    </div>
+</apex:component>

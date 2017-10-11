@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>F_AutorizacionLMPadre__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Autorización LM Padre</label>
+        <referenceTo>Fielo_Autorizacion_LifeMiles__c</referenceTo>
+        <relationshipLabel>Autorizacións LifeMiles</relationshipLabel>
+        <relationshipName>Autorizaci_ns_LifeMiles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>F_CodigoRespuestaLM__c</fullName>
+        <externalId>false</externalId>
+        <label>Código Respuesta LM</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_Estado__c</fullName>
+        <externalId>false</externalId>
+        <label>Estado</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pendiente</fullName>
+                    <default>false</default>
+                    <label>Pendiente</label>
+                </value>
+                <value>
+                    <fullName>Aprobado</fullName>
+                    <default>false</default>
+                    <label>Aprobado</label>
+                </value>
+                <value>
+                    <fullName>Rechazado</fullName>
+                    <default>false</default>
+                    <label>Rechazado</label>
+                </value>
+                <value>
+                    <fullName>Revertido</fullName>
+                    <default>false</default>
+                    <label>Revertido</label>
+                </value>
+                <value>
+                    <fullName>Reintentar</fullName>
+                    <default>false</default>
+                    <label>Reintentar</label>
+                </value>
+                <value>
+                    <fullName>Cancelado</fullName>
+                    <default>false</default>
+                    <label>Cancelado</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>F_IdTransaccion__c</fullName>
+        <externalId>false</externalId>
+        <label>Id Transacción</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_Member__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Member</label>
+        <referenceTo>FieloPLT__Member__c</referenceTo>
+        <relationshipLabel>Autorizaciones LifeMiles</relationshipLabel>
+        <relationshipName>Autorizaciones_LifeMiles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>F_MillasBase__c</fullName>
+        <externalId>false</externalId>
+        <label>Millas Base</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MillasBonus__c</fullName>
+        <externalId>false</externalId>
+        <label>Millas Bonus LM</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MillasPromocionales__c</fullName>
+        <externalId>false</externalId>
+        <label>Millas Promocionales</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_MontoTransaccion__c</fullName>
+        <description>Monto en dinero de la transacción</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Monto en dinero de la transacción</inlineHelpText>
+        <label>Monto</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>F_MotivoRechazo__c</fullName>
+        <externalId>false</externalId>
+        <label>Motivo de Rechazo</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_NumeroAutorizacionLM__c</fullName>
+        <externalId>false</externalId>
+        <label>Numero Autorización LM</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_NumeroLifeMiles__c</fullName>
+        <externalId>false</externalId>
+        <label>Número LifeMiles</label>
+        <length>16</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_ReintentosConexionLM__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Reintentos Conexión LM</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_TarjetaPreinscrita__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Tarjeta Preinscrita</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>FieloPLT__Member__c.RecordType.DeveloperName</field>
+                <operation>equals</operation>
+                <value>Fielo_TarjetaPreinscrita</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>FieloPLT__Member__c</referenceTo>
+        <relationshipLabel>Autorizacións LifeMiles (Tarjeta Preinscrita)</relationshipLabel>
+        <relationshipName>Autorizacions_LifeMiles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>F_TipoTransaccion__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Transacción</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Crédito (C)</fullName>
+                    <default>false</default>
+                    <label>Crédito (C)</label>
+                </value>
+                <value>
+                    <fullName>Débito (D)</fullName>
+                    <default>false</default>
+                    <label>Débito (D)</label>
+                </value>
+                <value>
+                    <fullName>Reversión (R)</fullName>
+                    <default>false</default>
+                    <label>Reversión (R)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>F_Venta__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Venta</label>
+        <referenceTo>Fielo_Venta__c</referenceTo>
+        <relationshipLabel>Autorizaciónes LifeMiles</relationshipLabel>
+        <relationshipName>Autorizaciones_LifeMiles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Autorización LifeMiles</label>
+    <listViews>
+        <fullName>Fielo_All</fullName>
+        <columns>NAME</columns>
+        <columns>F_NumeroAutorizacionLM__c</columns>
+        <columns>F_TipoTransaccion__c</columns>
+        <columns>F_Estado__c</columns>
+        <columns>F_Member__c</columns>
+        <columns>F_MillasBase__c</columns>
+        <columns>F_MillasPromocionales__c</columns>
+        <columns>F_Venta__c</columns>
+        <columns>F_TarjetaPreinscrita__c</columns>
+        <columns>F_IdTransaccion__c</columns>
+        <columns>F_CodigoRespuestaLM__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>Todas</label>
+        <language>es</language>
+    </listViews>
+    <nameField>
+        <displayFormat>LM-{0000000000}</displayFormat>
+        <label># Autorización</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Autorizacións LifeMiles</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>F_Estado__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Fielo_ReintentarTransaccionLifeMiles</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Reintentar Transacción LifeMiles</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/apex.js&quot;)} 
+
+var confirmacao = confirm(&apos;Usted está seguro de que desea realizar esta operación?&apos;); 
+
+if (confirmacao == true) { 
+var lAutorizacionID = &apos;{!Fielo_Autorizacion_LifeMiles__c.Id}&apos;;
+var result = sforce.apex.execute(&apos;Fielo_UTIL_MillasLifeMiles&apos;,&apos;reintentarseMillasLifeMiles&apos;,{aIdAutLifeMiles:lAutorizacionID }); 
+
+alert(result); 
+window.location.reload(); 
+} 
+else { 
+alert(&apos;Operação Cancelada&apos;); 
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Fielo_RevertirTransaccionLifeMiles</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Revertir Transacción LifeMiles</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/apex.js&quot;)} 
+
+var confirmacao = &apos;Desea realmente revertir esta transacción?&apos; ; 
+
+if ( confirm( confirmacao) ){ 
+var lLifeMilesID = &apos;{!Fielo_Autorizacion_LifeMiles__c.Id}&apos;; 
+var lResult = new String( sforce.apex.execute( &quot;Fielo_UTIL_MillasLifeMiles&quot;,&quot;reversionMillasLifeMiles&quot;,{aIdAutLifeMiles:lLifeMilesID } ) ); 
+if ( lResult.startsWith( &apos;/&apos; ) ) window.location = lResult; 
+else alert( lResult );
+window.location.reload(); 
+}</url>
+    </webLinks>
+</CustomObject>

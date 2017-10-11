@@ -1,0 +1,45 @@
+<apex:page tabStyle="Account" showHeader="true" sidebar="true" standardController="Contact" extensions="Ter_CatalogoProductos_ctr">
+	<style>
+		.required {
+			border-left: 3px solid #c00; 
+		}
+	</style>
+	<apex:form id="theForm">
+		<apex:pageblock id="pb01">
+			<apex:pageblockButtons location="Top">
+				<apex:commandButton value="Realizar Pedido" action="{!guardarPedido}" rendered="{!blnMostrar}"/> 
+				<apex:commandButton value="Volver" action="{!regresar}"/> 
+			</apex:pageblockButtons>
+			<apex:sectionHeader title="Catálogo de Productos Para Clientes de Clasificación {!strCategoria}"/>
+			<apex:pageMessages />
+			<apex:pageblocksection id="pbs01" columns="5" title="Seleccione los Productos" rendered="{!blnMostrar}">
+				<apex:pageBlockTable value="{!lstWrp}" var="registro" id="idTabla" rendered="{!blnMostrar}">
+					<apex:column headerValue="Seleccione" title="Seleccione">
+						<apex:inputCheckbox value="{!registro.blnActivo}"/>
+					</apex:column>
+					<apex:column headerValue=" Nombre" title="Nombre">
+						<apex:outputText value="{!registro.objProducto.Name}" />
+					</apex:column>
+					<apex:column headerValue="Descripción" title="Descripción">
+						<apex:outputText value="{!registro.objProducto.Description}" />
+					</apex:column>
+					<apex:column headerValue="Categoría" title="Categoría">
+						<apex:outputText value="{!registro.objProducto.Family}" />
+					</apex:column>
+					<apex:column headerValue="Ocasión" title="Ocasión" >
+						<apex:inputText value="{!registro.strOcasion}" styleClass="required"/>
+					</apex:column>
+					<apex:column headerValue="Código de Producto" title="Código de Producto">
+						<apex:outputText value="{!registro.objProducto.ProductCode}" />
+					</apex:column>
+					<apex:column headerValue="Fecha de Entrega" title="Fecha de Entrega">
+						<apex:inputField value="{!registro.objPedido.Ter_Fecha_de_entrega__c}" styleClass="required"/>
+					</apex:column>
+					<apex:column headerValue="Imagen" title="Imagen">
+						<apex:outputText value="{!registro.objProducto.Ter_Imagen__c}" escape="false"/>
+					</apex:column>
+				</apex:pageBlockTable>
+			</apex:pageblocksection>
+		</apex:pageblock>
+	</apex:form>
+</apex:page>

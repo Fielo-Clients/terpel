@@ -1,0 +1,2186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Add</fullName>
+        <categories>LevelEditBackEnd.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>Back</fullName>
+        <categories>AgreementEditBackEnd.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Block</fullName>
+        <categories>BlockUnblockMember.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Block</shortDescription>
+        <value>Block</value>
+    </labels>
+    <labels>
+        <fullName>BlockUnblock</fullName>
+        <categories>BlockUnblockMember.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Block Unblock</shortDescription>
+        <value>Block/Unblock</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>AgreementEditBackEnd.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>CancelInvitation</fullName>
+        <categories>HandleInvitationsMembers.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel Invitation</shortDescription>
+        <value>Cancel Invite</value>
+    </labels>
+    <labels>
+        <fullName>Continue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Continue button</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>CreateVoucher</fullName>
+        <categories>ShoppingCart.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Checkout</shortDescription>
+        <value>Checkout</value>
+    </labels>
+    <labels>
+        <fullName>Delete</fullName>
+        <categories>ShoppingDelete.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>EmptyCart</fullName>
+        <categories>ShoppingCart.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmptyCart</shortDescription>
+        <value>Empty Cart</value>
+    </labels>
+    <labels>
+        <fullName>ErrorDeleteFieloAccount</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Delete Fielo Account</shortDescription>
+        <value>You cannot delete a Fielo Account with status &quot;New&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorFieloAccountBlocked</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Fielo Account Blocked</shortDescription>
+        <value>The Fielo Account that is trying to perform the action is blocked.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorLoginMemberBlocked</fullName>
+        <categories>SiteLoginFieloController</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorLoginMemberBlocked</shortDescription>
+        <value>Login is blocked. Please contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorLoginProgramValidation</fullName>
+        <categories>SiteLoginFieloController</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorLoginProgramValidation</shortDescription>
+        <value>Incorrect username</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMemberForgotPasswordInexist</fullName>
+        <categories>ForgotPasswordFieloController.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Member Forgot Password Inexist</shortDescription>
+        <value>Member does not exist</value>
+    </labels>
+    <labels>
+        <fullName>ErrorNoItemShoppingCart</fullName>
+        <categories>ShoppingCartItemsController.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Item in Shopping Cart</shortDescription>
+        <value>You don´t have items in your shopping cart</value>
+    </labels>
+    <labels>
+        <fullName>ErrorOrganizationAccountAction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Organization Account action</shortDescription>
+        <value>Must be an Organization Account to perform this action.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorRegistrationUserExists</fullName>
+        <categories>RegisterStep2.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Registration User Exists</shortDescription>
+        <value>You have been already registered.</value>
+    </labels>
+    <labels>
+        <fullName>FacebookLogin</fullName>
+        <categories>RegisterFacebook.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Facebook Login</shortDescription>
+        <value>Facebook Login</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_AutorizacionErrorReversion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_AutorizacionErrorReversion</shortDescription>
+        <value>Solo autorizaciones aprobadas de tipo Débito o Crédito pueden ser revertidas.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_AutorizacionSinPuntos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_AutorizacionSinPuntos</shortDescription>
+        <value>Se canceló la transacción debido a que el monto de millas a acumular es cero</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_CamposRequeridos</fullName>
+        <categories>CMS: Componente Contáctanos</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_CamposRequeridos</shortDescription>
+        <value>Por favor complete todos los campos.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_CarritoUnidadesDisponibles</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_CarritoUnidadesDisponibles</shortDescription>
+        <value>Unidades Disponibles</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ClienteIdentificado</fullName>
+        <categories>Web Service - Validar Cliente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ClienteIdentificado</shortDescription>
+        <value>El cliente fue identificado correctamente, proceda con la venta.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ClienteInactivo</fullName>
+        <categories>Web Service - Validar Cliente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ClienteInactivo</shortDescription>
+        <value>El cliente se encuentra bloqueado</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ClienteInexistente</fullName>
+        <categories>Web Service - Validar Cliente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ClienteInexistente</shortDescription>
+        <value>No es posible identificar al cliente con los datos ingresados, por favor intente nuevamente.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ContactenosEnviado</fullName>
+        <categories>CMS: Componente Contáctanos</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ContactenosEnviado</shortDescription>
+        <value>Su consulta ha sido enviada correctamente, a la brevedad nos estaremos comunicando con usted. Muchas gracias.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_InfraccionMaximaCantidadLiquido</fullName>
+        <categories>Venta: Control de Fraudes</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_InfraccionMaximaCantidadLiquido</shortDescription>
+        <value>- La transacción supera el monto máximo autorizado por lo cual se ha limitado la cantidad de millas acumuladas. Para más información consulta términos y condiciones o comunícate al #462</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_InfraccionMaximaCantidadVentas</fullName>
+        <categories>Venta: Control de Fraudes</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_InfraccionMaximaCantidadVentas</shortDescription>
+        <value>Superaste el número máximo de transacciones autorizadas en un mismo día, esta transacción no acumulo millas. Para más información consulta términos y condiciones o comunícate al #462</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_InfraccionMaximoMontoTienda</fullName>
+        <categories>Venta: Control de Fraudes</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_InfraccionMaximoMontoTienda</shortDescription>
+        <value>- La transacción supera el monto máximo autorizado por lo cual se ha limitado la cantidad de millas acumuladas. Para más información consulta términos y condiciones o comunícate al #462</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_InfraccionMinimoTiempoEntreVentas</fullName>
+        <categories>Venta: Control de Fraudes</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_InfraccionMinimoTiempoEntreVentas</shortDescription>
+        <value>La transacción no cumple con el tiempo mínimo establecido entre transacciones, transacción invalida. Para más información consulta términos y condiciones o comunícate al #462</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_InfraccionReincidenciasFraude</fullName>
+        <categories>Venta: Control de Fraudes</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_InfraccionReincidenciasFraude</shortDescription>
+        <value>Se ha superado el límite de infracciones por fraude, su usuario ha sido bloqueado. Por favor comuníquese con el área de soporte para solucionar el inconveniente.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_InvalidEmail</fullName>
+        <categories>CMS: Componente Contáctanos</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_InvalidEmail</shortDescription>
+        <value>Por favor inserte un correo electrónico válido</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_PerfilTerpelGuardar</fullName>
+        <categories>Perfil Terpel Frontend</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_PerfilTerpelGuardar</shortDescription>
+        <value>Guardar</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ProcesarVentaConversionError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ProcesarVentaConversionError</shortDescription>
+        <value>Tasa de conversión no encontrada.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_PuntoDeVentaInexistente</fullName>
+        <categories>Web Service - Validar Cliente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_PuntoDeVentaInexistente</shortDescription>
+        <value>No se puede identificar el punto de venta.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_PuntoDeVentaNoAcumula</fullName>
+        <categories>Web Service - Validar Cliente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_PuntoDeVentaNoAcumula</shortDescription>
+        <value>El punto de venta no se encuentra habilitado para la acumulación de millas..</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ReclamacionMemberBloqueado</fullName>
+        <categories>Web Service - Validar Voucher</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ReclamacionMemberBloqueado</shortDescription>
+        <value>El participante dueño del bono se encuentra bloqueado</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ReclamacionPuntoDeVentaInhabilitado</fullName>
+        <categories>Web Service - Validar Voucher</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ReclamacionPuntoDeVentaInhabilitado</shortDescription>
+        <value>El punto de venta no se encuentra habilitado para reclamaciones</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ReclamacionValida</fullName>
+        <categories>Web Service - Validar Voucher</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ReclamacionValida</shortDescription>
+        <value>Reclamación Exitosa</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ReclamacionVoucherInexistente</fullName>
+        <categories>Web Service - Validar Voucher</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ReclamacionVoucherInexistente</shortDescription>
+        <value>El Código de Bono ingresado no existe</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ReclamacionVoucherMontoInvalido</fullName>
+        <categories>Web Service - Validar Voucher</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ReclamacionVoucherMontoInvalido</shortDescription>
+        <value>El monto ingresado supera al valor máximo del Bono.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_ReclamacionVoucherYaUtilizado</fullName>
+        <categories>Web Service - Validar Voucher</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_ReclamacionVoucherYaUtilizado</shortDescription>
+        <value>El Bono ingresado ya ha sido utilizado previamente</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_RedencionItemNulo</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_RedencionItemNulo</shortDescription>
+        <value>Por favor, seleccionar al menos un item para realizar la redención.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_RedencionItemsInsuficientes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_RedencionItemsInsuficientes</shortDescription>
+        <value>No existen unidades suficientes para realizar la redención.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_RedencionMillasInsuficientes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_RedencionMillasInsuficientes</shortDescription>
+        <value>No posee Millas suficientes para realizar la redención. Por favor consulte sus millas e intente nuevamente.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPerfilTerpel</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPerfilTerpel</shortDescription>
+        <value>¿Tienes una tarjeta &lt;a href=&quot;https://www.lifemiles.com/indexes.aspx&quot; target=&quot;_blank&quot;&gt;LifeMiles&lt;/a&gt; con un número pre-asignado?</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaAsignacionFallida</fullName>
+        <categories>Asignación Tarjeta Preinscrita</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaAsignacionFallida</shortDescription>
+        <value>En este momento no se puede asignar la tarjeta a su cuenta, intentelo más tarde o contáctese con soporte.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaExpirada</fullName>
+        <categories>Consulta de Saldo Tarjeta Preinscrita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaExpirada</shortDescription>
+        <value>El número de tarjeta ingresado corresponde a una tarjeta expirada</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaIdentificada</fullName>
+        <categories>Web Service - Validar Cliente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaIdentificada</shortDescription>
+        <value>La tarjeta temporal fue identificada correctamente, proceda con la venta.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaInexistente</fullName>
+        <categories>Consulta de Saldo Tarjeta Preinscrita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaInexistente</shortDescription>
+        <value>El número ingresado no corresponde a una tarjeta válida de Club Terpel.</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaNoAcumulaEnLM</fullName>
+        <categories>Web Service: Acumulación</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaNoAcumulaEnLM</shortDescription>
+        <value>Las Tarjetas Preinscritas no acumulan en LifeMiles</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaNoDisponible</fullName>
+        <categories>Asignación Tarjeta Preinscrita</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaNoDisponible</shortDescription>
+        <value>La tarjeta que intenta registrar no se encuentra disponible</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaNoEncontrada</fullName>
+        <categories>Asignación Tarjeta Preinscrita Virtual</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaNoEncontrada</shortDescription>
+        <value>En este momento no hay tarjetas preinscritas para asignar</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaNoHabilitada</fullName>
+        <categories>Consulta de Saldo Tarjeta Preinscrita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaNoHabilitada</shortDescription>
+        <value>El número de tarjeta ingresado corresponde a una tarjeta inhabilitada</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaUsada</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaUsada</shortDescription>
+        <value>La tarjeta con la que intenta identificarse ya se encuentra asociada a un usuario existente. Por favor identifíquese con su número LifeMiles o su tipo y número de documento</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_TarjetaPreinscritaUtilizada</fullName>
+        <categories>Consulta de Saldo Tarjeta Preinscrita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_TarjetaPreinscritaUtilizada</shortDescription>
+        <value>El número de tarjeta ingresado corresponde a una tarjeta ya utilizada</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_URLHomeClienteLifeMiles</fullName>
+        <categories>Fielo Site - Club Terpel</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_URLHomeClienteLifeMiles</shortDescription>
+        <value>https://devfie-clubterpel.cs66.force.com/FieloCMS__Page?navId=a0u0v0000000cng</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_URLHomeClienteTerpel</fullName>
+        <categories>Fielo Site - Club Terpel</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_URLHomeClienteTerpel</shortDescription>
+        <value>https://devfie-clubterpel.cs66.force.com/FieloCMS__Page?navId=a0u0v0000000cng</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_URLPrimerLoginClienteTerpel</fullName>
+        <categories>Fielo Site - Club Terpel</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_URLPrimerLoginClienteTerpel</shortDescription>
+        <value>https://devfie-clubterpel.cs66.force.com/FieloCMS__Page?navId=a0u0v0000000r1e</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_VerMas</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_VerMas</shortDescription>
+        <value>Ver más</value>
+    </labels>
+    <labels>
+        <fullName>Fielo_VolveralCatalogo</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Fielo_VolveralCatalogo</shortDescription>
+        <value>Volver al catálogo</value>
+    </labels>
+    <labels>
+        <fullName>GoToHome</fullName>
+        <categories>ForgotPasswordConfirm.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Go To Home</shortDescription>
+        <value>Go to Home</value>
+    </labels>
+    <labels>
+        <fullName>IAgree</fullName>
+        <categories>AgreementAccept.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Agreement</shortDescription>
+        <value>I Agree</value>
+    </labels>
+    <labels>
+        <fullName>InfoMemberInApproval</fullName>
+        <categories>RegisterStep2.component</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Info Member In Approval</shortDescription>
+        <value>Member in approval process</value>
+    </labels>
+    <labels>
+        <fullName>InfoRedemptionApproval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>zz_deprecated_InfoRedemptionApproval</shortDescription>
+        <value>Your order was sent to approve, once your redemption has been approved you will see it in your profile page.</value>
+    </labels>
+    <labels>
+        <fullName>InfoRegisterApprovalInstructions</fullName>
+        <categories>RegisterStep2.component</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Second step for registration without Approval and fieldset empty</shortDescription>
+        <value>Click submit to finish the registration.</value>
+    </labels>
+    <labels>
+        <fullName>InsufficientAccessToCancelInvitation</fullName>
+        <categories>HandleInvitationsMembersController.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Insufficient Access to Cancel Invitation</shortDescription>
+        <value>You can not cancel the invitation because you do not have access to delete this Member.</value>
+    </labels>
+    <labels>
+        <fullName>Like</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>zz_deprecated_Fielo_LikeOff</shortDescription>
+        <value>Like</value>
+    </labels>
+    <labels>
+        <fullName>LoginAsMember</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Login as Member</shortDescription>
+        <value>Member</value>
+    </labels>
+    <labels>
+        <fullName>LoginAsOrganization</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Login as Organization</shortDescription>
+        <value>Organization</value>
+    </labels>
+    <labels>
+        <fullName>MemberIdRequired</fullName>
+        <categories>MemberService.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Member Id Required</shortDescription>
+        <value>Member Id Required</value>
+    </labels>
+    <labels>
+        <fullName>MemberInvalid</fullName>
+        <categories>RegisterStep2.component</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Member Invalid</shortDescription>
+        <value>Invalid Member</value>
+    </labels>
+    <labels>
+        <fullName>MemberRejected</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Member Rejected</shortDescription>
+        <value>The member was rejected</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <categories>EmailCampaignStep1BackEnd.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>OrganizationNotAllowed</fullName>
+        <categories>RegisterStep2.component</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Organization Not Allowed</shortDescription>
+        <value>The type of member is not allowed to continue the registration</value>
+    </labels>
+    <labels>
+        <fullName>Password</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Password</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>PasswordConfirm</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PasswordConfirm</shortDescription>
+        <value>Confirm Password</value>
+    </labels>
+    <labels>
+        <fullName>PasswordIsRequired</fullName>
+        <categories>RegisterStep2Controller.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RequiredPassword</shortDescription>
+        <value>Password is required</value>
+    </labels>
+    <labels>
+        <fullName>Previous</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationSuccessExistingUser</fullName>
+        <categories>RegisterStep2.component</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Registration Success Existing User</shortDescription>
+        <value>Your registration was succesful, please go to the home page and login with your user and password.</value>
+    </labels>
+    <labels>
+        <fullName>Reinvite</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reinvite</shortDescription>
+        <value>Reinvite</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>AgreementAccept.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Set</fullName>
+        <categories>ToggleManager.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Set</shortDescription>
+        <value>Set</value>
+    </labels>
+    <labels>
+        <fullName>ShoppingCartSave</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ShoppingCartSave</shortDescription>
+        <value>The changes were saved.</value>
+    </labels>
+    <labels>
+        <fullName>ShoppingExistingReward</fullName>
+        <categories>RewardDetailController.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shopping Existing Reward</shortDescription>
+        <value>This reward is already in your shopping cart, please modify the quantity in the shopping cart.</value>
+    </labels>
+    <labels>
+        <fullName>Submit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>zz_deprecated_Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>SuccessRewardAddToChart</fullName>
+        <categories>CatalogController.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success Reward Add To Chart</shortDescription>
+        <value>Reward added successfully</value>
+    </labels>
+    <labels>
+        <fullName>SuccessfulRemoteActionRefresh</fullName>
+        <categories>ToggleManagerController.cls, HandleInvitationsMembersController.cls, BlockUnblockMemberController.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Successful Remote Action Refresh</shortDescription>
+        <value>Your action has been successful</value>
+    </labels>
+    <labels>
+        <fullName>SucessAwardingApprovalRegistration</fullName>
+        <categories>RegisterStep2.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SiteApprovalUser</shortDescription>
+        <value>You have finished the registration process. You will receive an email confirmation when the participant is active. Thank you.</value>
+    </labels>
+    <labels>
+        <fullName>SucessRegistrationStep1</fullName>
+        <categories>RegisterStep1.page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SiteRegistrationStart</shortDescription>
+        <value>Check your email to continue the registration process.</value>
+    </labels>
+    <labels>
+        <fullName>TER_CONVERSION_MILES_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_CONVERSION_MILES_IS_REQUIRED</shortDescription>
+        <value>La cantidad de millas a redimir son requeridas</value>
+    </labels>
+    <labels>
+        <fullName>TER_DISCOUNT_AMOUNT_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_DISCOUNT_AMOUNT_EXCEDED_MAX_CHARS</shortDescription>
+        <value>La cantidad de descuento excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_DISCOUNT_AMOUNT_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_DISCOUNT_AMOUNT_MAX_CHARS</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MESSAGE_ID_INACTIVE</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MESSAGE_ID_INACTIVE</shortDescription>
+        <value>El cliente no se encuentra en un estado válido</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MESSAGE_ID_NOT_FOUND</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MESSAGE_ID_NOT_FOUND</shortDescription>
+        <value>Número de identificación no encontrado</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MESSAGE_NLM_INACTIVE</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MESSAGE_NLM_INACTIVE</shortDescription>
+        <value>Numero lifemiles inactivo</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MESSAGE_NLM_NOT_FOUND</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MESSAGE_NLM_NOT_FOUND</shortDescription>
+        <value>Número lifemiles no encontrado.</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MESSAGE_TPI_INACTIVE</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MESSAGE_TPI_INACTIVE</shortDescription>
+        <value>Tarjeta pre-inscrita Inactiva</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MESSAGE_TPI_NOT_FOUND</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MESSAGE_TPI_NOT_FOUND</shortDescription>
+        <value>Tarjeta pre-inscrita no encontrada</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MSG_DATE_TRANSACTION_EMPTY</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MSG_DATE_TRANSACTION_EMPTY</shortDescription>
+        <value>El campo Fecha de Transacción es Obligatorio.</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MSG_ID_NUMBER_EMPTY</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MSG_ID_NUMBER_EMPTY</shortDescription>
+        <value>El campo Número de Identificación es Obligatorio.</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MSG_ID_TYPE_EMPTY</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MSG_ID_TYPE_EMPTY</shortDescription>
+        <value>El campo Tipo de Identificación es Obligatorio.</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MSG_SOURCE_INVALID</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MSG_SOURCE_INVALID</shortDescription>
+        <value>El Origen de Transacción recibido no esta identificado en el sistema.</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MSG_STORE_EMPTY</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MSG_STORE_EMPTY</shortDescription>
+        <value>El campo Id Punto de Venta es Obligatorio.</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MSG_STORE_NOT_FOUND</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MSG_STORE_NOT_FOUND</shortDescription>
+        <value>El Punto de Venta no se encuentra habilitado para acumular.</value>
+    </labels>
+    <labels>
+        <fullName>TER_ERROR_MSG_TRANSACTION_SOURCE_EMPTY</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_ERROR_MSG_TRANSACTION_SOURCE_EMPTY</shortDescription>
+        <value>El campo Origen Transacción es Obligatorio.</value>
+    </labels>
+    <labels>
+        <fullName>TER_MAX_RETRY_CONVERSION_WS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_MAX_RETRY_CONVERSION_WS</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>TER_MEMBER_ID_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_MEMBER_ID_EXCEDED_MAX_CHARS</shortDescription>
+        <value>El identificador de miembro excede el número máximo de caracteres</value>
+    </labels>
+    <labels>
+        <fullName>TER_MEMBER_ID_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_MEMBER_ID_IS_REQUIRED</shortDescription>
+        <value>El identificado de miembro es requerido</value>
+    </labels>
+    <labels>
+        <fullName>TER_MEMBER_ID_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_MEMBER_ID_MAX_CHARS</shortDescription>
+        <value>50</value>
+    </labels>
+    <labels>
+        <fullName>TER_NUMERO_LIFE_MILES_TYPE</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_NUMERO_LIFE_MILES_TYPE</shortDescription>
+        <value>NLM</value>
+    </labels>
+    <labels>
+        <fullName>TER_PARTNER_CODE_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PARTNER_CODE_EXCEDED_MAX_CHARS</shortDescription>
+        <value>El código de socio excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_PARTNER_CODE_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PARTNER_CODE_IS_REQUIRED</shortDescription>
+        <value>El código de socio es requerido</value>
+    </labels>
+    <labels>
+        <fullName>TER_PARTNER_CODE_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PARTNER_CODE_MAX_CHARS</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>TER_PASSWORD2_MAX_CHARACTERS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PASSWORD2_MAX_CHARACTERS</shortDescription>
+        <value>16</value>
+    </labels>
+    <labels>
+        <fullName>TER_PASSWORD_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PASSWORD_EXCEDED_MAX_CHARS</shortDescription>
+        <value>La password excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_PASSWORD_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PASSWORD_IS_REQUIRED</shortDescription>
+        <value>La password es requerida</value>
+    </labels>
+    <labels>
+        <fullName>TER_PASSWORD_MAX_CHARACTERS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PASSWORD_MAX_CHARACTERS</shortDescription>
+        <value>25</value>
+    </labels>
+    <labels>
+        <fullName>TER_POST_AMOUNT_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_POST_AMOUNT_EXCEDED_MAX_CHARS</shortDescription>
+        <value>La cantidad a postear excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_POST_AMOUNT_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_POST_AMOUNT_IS_REQUIRED</shortDescription>
+        <value>La cantidad a postear es requerida</value>
+    </labels>
+    <labels>
+        <fullName>TER_POST_AMOUNT_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_POST_AMOUNT_MAX_CHARS</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>TER_POST_EQUIV_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_POST_EQUIV_EXCEDED_MAX_CHARS</shortDescription>
+        <value>La cantidad equivalente excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_POST_EQUIV_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_POST_EQUIV_IS_REQUIRED</shortDescription>
+        <value>La cantidad equivalente es requerida</value>
+    </labels>
+    <labels>
+        <fullName>TER_POST_EQUIV_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_POST_EQUIV_MAX_CHARS</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>TER_PURSHASE_TRANS_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PURSHASE_TRANS_EXCEDED_MAX_CHARS</shortDescription>
+        <value>El identificador de la pre-compra excede el número máximo de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_PURSHASE_TRANS_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_PURSHASE_TRANS_MAX_CHARS</shortDescription>
+        <value>6</value>
+    </labels>
+    <labels>
+        <fullName>TER_RETRYNUMBER_WS_CONVERSION</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_RETRYNUMBER_WS_CONVERSION</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>TER_SENDER_CODE_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SENDER_CODE_EXCEDED_MAX_CHARS</shortDescription>
+        <value>El código de socio excede el numero máximo de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_SENDER_CODE_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SENDER_CODE_IS_REQUIRED</shortDescription>
+        <value>El código del socio es requerido</value>
+    </labels>
+    <labels>
+        <fullName>TER_SENDER_CODE_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SENDER_CODE_MAX_CHARS</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>TER_SESSION_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SESSION_EXCEDED_MAX_CHARS</shortDescription>
+        <value>La sessión excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_SESSION_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SESSION_IS_REQUIRED</shortDescription>
+        <value>La sessión es requerida</value>
+    </labels>
+    <labels>
+        <fullName>TER_SESSION_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SESSION_MAX_CHARS</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>TER_STATUS_ACTIVE_MEMBER</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_STATUS_ACTIVE_MEMBER</shortDescription>
+        <value>Active</value>
+    </labels>
+    <labels>
+        <fullName>TER_STATUS_CARD_EXPIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_STATUS_CARD_EXPIRED</shortDescription>
+        <value>Expirada</value>
+    </labels>
+    <labels>
+        <fullName>TER_STATUS_CARD_USED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_STATUS_CARD_USED</shortDescription>
+        <value>Utilizada</value>
+    </labels>
+    <labels>
+        <fullName>TER_STATUS_LOCK_RECLAMATION</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_STATUS_LOCK_RECLAMATION</shortDescription>
+        <value>Blocked</value>
+    </labels>
+    <labels>
+        <fullName>TER_STATUS_MAX_RETRY_CONVERSION_WS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_STATUS_MAX_RETRY_CONVERSION_WS</shortDescription>
+        <value>Cancelado</value>
+    </labels>
+    <labels>
+        <fullName>TER_STATUS_READY_RECLAMATION</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_STATUS_READY_RECLAMATION</shortDescription>
+        <value>Ready</value>
+    </labels>
+    <labels>
+        <fullName>TER_STATUS_RETRY_CONVERSION_WS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_STATUS_RETRY_CONVERSION_WS</shortDescription>
+        <value>Reintentar</value>
+    </labels>
+    <labels>
+        <fullName>TER_STATUS_SUCESS_CONVERSION_WS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_STATUS_SUCESS_CONVERSION_WS</shortDescription>
+        <value>Aprobado</value>
+    </labels>
+    <labels>
+        <fullName>TER_SUCCESS_CODE_LIFE_CONVERSION_MILES</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SUCCESS_CODE_LIFE_CONVERSION_MILES</shortDescription>
+        <value>000</value>
+    </labels>
+    <labels>
+        <fullName>TER_SUCCESS_MESSAGE_ID_NUMBER_FOUND</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SUCCESS_MESSAGE_ID_NUMBER_FOUND</shortDescription>
+        <value>Cliente Encontrado</value>
+    </labels>
+    <labels>
+        <fullName>TER_SUCCESS_MESSAGE_NLM_FOUND</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SUCCESS_MESSAGE_NLM_FOUND</shortDescription>
+        <value>Numero lifemiles encontrado</value>
+    </labels>
+    <labels>
+        <fullName>TER_SUCCESS_MESSAGE_TPI_FOUND</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_SUCCESS_MESSAGE_TPI_FOUND</shortDescription>
+        <value>Tarjeta Pre-inscrita Encontrada</value>
+    </labels>
+    <labels>
+        <fullName>TER_TARJETA_PREINSCRITA_TYPE</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TARJETA_PREINSCRITA_TYPE</shortDescription>
+        <value>TPI</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_DATE_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_DATE_EXCEDED_MAX_CHARS</shortDescription>
+        <value>La fecha de transacción excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_DATE_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_DATE_IS_REQUIRED</shortDescription>
+        <value>La fecha de transacción es requerida</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_DATE_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_DATE_MAX_CHARS</shortDescription>
+        <value>8</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_DESC_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_DESC_EXCEDED_MAX_CHARS</shortDescription>
+        <value>La descripción de la transacción excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_DESC_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_DESC_IS_REQUIRED</shortDescription>
+        <value>La descripción de la transacción es requerida</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_DESC_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_DESC_MAX_CHARS</shortDescription>
+        <value>250</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_EXCEDED_MAX_CHARS</shortDescription>
+        <value>El identificador de la transacción excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_INVALID_FORMAT</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_INVALID_FORMAT</shortDescription>
+        <value>El  identificador de transacción tiene un formato inválido</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_IS_REQUIRED</shortDescription>
+        <value>El identificador de la transacción es requerido</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_MAX_CHARS</shortDescription>
+        <value>20</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_REGEX_FORMAT</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_REGEX_FORMAT</shortDescription>
+        <value>([0-9]{20})</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_SOURCE_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_SOURCE_EXCEDED_MAX_CHARS</shortDescription>
+        <value>El identificador de transacción origen excede el numero máximo de caracteres</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_SOURCE_INVALID_FORMAT</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_SOURCE_INVALID_FORMAT</shortDescription>
+        <value>El identificador de transacción origen tiene un formato inválido</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_SOURCE_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_SOURCE_MAX_CHARS</shortDescription>
+        <value>20</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_ID_SOURCE_REGEX_FORMAT</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_ID_SOURCE_REGEX_FORMAT</shortDescription>
+        <value>C|R|P</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_LIFE_CONVS_ID_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_LIFE_CONVS_ID_MAX_CHARS</shortDescription>
+        <value>40</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_SOURCE_LIFE_CONVS_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_SOURCE_LIFE_CONVS_MAX_CHARS</shortDescription>
+        <value>40</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_TYPE_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_TYPE_EXCEDED_MAX_CHARS</shortDescription>
+        <value>El tipo de transacción excede el número máximo de caracteres</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_TYPE_INVALID_VALUE</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_TYPE_INVALID_VALUE</shortDescription>
+        <value>El tipo de transacción es inválido</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_TYPE_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_TYPE_IS_REQUIRED</shortDescription>
+        <value>El tipo de transacción es requerido</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_TYPE_LIFE_CONVS_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_TYPE_LIFE_CONVS_MAX_CHARS</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_TYPE_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_TYPE_MAX_CHARS</shortDescription>
+        <value>2</value>
+    </labels>
+    <labels>
+        <fullName>TER_TRANSACTION_TYPE_REGEX_VALUE</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_TRANSACTION_TYPE_REGEX_VALUE</shortDescription>
+        <value>C|R|P|D</value>
+    </labels>
+    <labels>
+        <fullName>TER_USERNAME_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_USERNAME_EXCEDED_MAX_CHARS</shortDescription>
+        <value>El usuario excede el número de caracteres permitidos</value>
+    </labels>
+    <labels>
+        <fullName>TER_USERNAME_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_USERNAME_IS_REQUIRED</shortDescription>
+        <value>El usuario es requerido</value>
+    </labels>
+    <labels>
+        <fullName>TER_USERNAME_MAX_CHARACTERS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TER_USERNAME_MAX_CHARACTERS</shortDescription>
+        <value>25</value>
+    </labels>
+    <labels>
+        <fullName>Ter_Ip_Reportes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_Ip_Reportes</shortDescription>
+        <value>serviciosqas.terpel.com</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMAdministrador_Funcional_Plataforma</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMAdministrador_Funcional_Plataforma</shortDescription>
+        <value>Administrador Funcional Plataforma</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilAdministradorFuncionalComercial</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilAdministradorFuncionalComercial</shortDescription>
+        <value>Administrador Funcional Comercial</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilAdministradorSistema</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilAdministradorSistema</shortDescription>
+        <value>Administrador del sistema</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilAdministradorT_cnicoPlataforma</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilAdministradorTécnicoPlataforma</shortDescription>
+        <value>Administrador Técnico Plataforma</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilEjecutivo_de_Cuenta_Industria</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilEjecutivo_de_Cuenta_Industria</shortDescription>
+        <value>Ejecutivo de Cuenta Industria</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilEjecutivo_de_cuenta_Aviacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilEjecutivo_de_cuenta_Aviacion</shortDescription>
+        <value>Ejecutivo de cuenta Aviación</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilEjecutivo_de_cuenta_Marinos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilEjecutivo_de_cuenta_Marinos</shortDescription>
+        <value>Ejecutivo de cuenta Marinos</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilGerente_Regional</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilGerente_Regional</shortDescription>
+        <value>Gerente Regional</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilJefe_Comercial_Conversiones</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilJefe_Comercial_Conversiones</shortDescription>
+        <value>Jefe Comercial Conversiones</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilJefe_de_Zona_EDS_Combustibles</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilJefe_de_Zona_EDS_Combustibles</shortDescription>
+        <value>Jefe de Zona EDS Combustibles</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilJefe_de_Zona_Lubricantes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilJefe_de_Zona_Lubricantes</shortDescription>
+        <value>Jefe de Zona Lubricantes</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilSupervisor_II_Aviacion_y_Marinos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilSupervisor_II_Aviacion_y_Marinos</shortDescription>
+        <value>Supervisor II Aviación y Marinos</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilSupervisor_II_GNV_Conversiones</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilSupervisor_II_GNV_Conversiones</shortDescription>
+        <value>Supervisor II GNV Conversiones</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilSupervisor_II_Lubricantes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilSupervisor_II_Lubricantes</shortDescription>
+        <value>Supervisor II Lubricantes</value>
+    </labels>
+    <labels>
+        <fullName>Ter_PermisoBMPerfilSupervisor_SSAC</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_PermisoBMPerfilSupervisor_SSAC</shortDescription>
+        <value>Supervisor SSAC</value>
+    </labels>
+    <labels>
+        <fullName>Ter_Puerto_Reportes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_Puerto_Reportes</shortDescription>
+        <value>:44302/</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_CuentaContrato</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_CuentaContrato</shortDescription>
+        <value>EL VALOR CUENTA ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_EstadoContrato</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_EstadoContrato</shortDescription>
+        <value>EL VALOR ESTADO ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_FechaFinContrato</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_FechaFinContrato</shortDescription>
+        <value>EL VALOR FECHA FINAL ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_FechaIniContrato</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_FechaIniContrato</shortDescription>
+        <value>EL VALOR FECHA INICIAL ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_Moneda</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_Moneda</shortDescription>
+        <value>EL VALOR MONEDA ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_NombreContrato</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_NombreContrato</shortDescription>
+        <value>EL VALOR NOMBRE DEL CONTRATO ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_NumContrato</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_NumContrato</shortDescription>
+        <value>EL VALOR NUMERO CONTRATO ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_TituloContrato</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_TituloContrato</shortDescription>
+        <value>EL VALOR TITULO ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_WS_ValorContrato</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_WS_ValorContrato</shortDescription>
+        <value>EL VALOR VALOR ES OBLIGATORIO</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Acumulacion_TDC</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Acumulacion_TDC</shortDescription>
+        <value>Acumulacion alt TDC</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Aeropuertos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Aeropuertos</shortDescription>
+        <value>Aeropuertos</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Analisis</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Analisis</shortDescription>
+        <value>Analisis</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_CP_General</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_CP_General</shortDescription>
+        <value>General</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Campo_Obligatorio</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Campo_Obligatorio</shortDescription>
+        <value>El campo &lt;&lt;campo&gt;&gt; es obligatorio.&lt;br&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Campo_Obligatorio_WS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Campo_Obligatorio_WS</shortDescription>
+        <value>El campo &lt;&lt;campo&gt;&gt; es obligatorio.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Cliente_Duplicado</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Cliente_Duplicado</shortDescription>
+        <value>El número de documento enviado ya se encuentra registrado en el programa, intente recuperar su contraseña o comuníquese con nuestra línea de soporte al cliente llamando al  #462 ó al 018000518555</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_ClubTerpel_Agreement_Accepted</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_ClubTerpel_Agreement_Accepted</shortDescription>
+        <value>Y</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_CodigoErrorVoucher</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_CodigoErrorVoucher</shortDescription>
+        <value>997</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Cliente_Duplicado_LM</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Cliente_Duplicado_LM</shortDescription>
+        <value>029</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Error_Acumulacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Error_Acumulacion</shortDescription>
+        <value>991</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Error_Campo_Faltante</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Error_Campo_Faltante</shortDescription>
+        <value>999</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Error_Card_Expired</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Error_Card_Expired</shortDescription>
+        <value>166</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Error_Cliente_Inactivo</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Error_Cliente_Inactivo</shortDescription>
+        <value>97</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Error_Cliente_Inexistente</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Error_Cliente_Inexistente</shortDescription>
+        <value>96</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Error_Homologacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Error_Homologacion</shortDescription>
+        <value>998</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Error_PDV_No_Acumula</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Error_PDV_No_Acumula</shortDescription>
+        <value>95</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Error_TPI_Inexistente</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Error_TPI_Inexistente</shortDescription>
+        <value>1662</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Exito_Acumulacion_LM</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Exito_Acumulacion_LM</shortDescription>
+        <value>000</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Exito_Cliente_LM</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Exito_Cliente_LM</shortDescription>
+        <value>000</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Exito_Merge_LM</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Exito_Merge_LM</shortDescription>
+        <value>008</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Exito_Redencion_LM</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Exito_Redencion_LM</shortDescription>
+        <value>000</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Exito_Reintento_LM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Exito_Reintento_LM</shortDescription>
+        <value>015</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Exito_Reversion_LM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Exito_Reversion_LM</shortDescription>
+        <value>007</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Codigo_Rta_Reintentar</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Codigo_Rta_Reintentar</shortDescription>
+        <value>010,011,013,018,101,102,103,104</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Conversiones</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Conversiones</shortDescription>
+        <value>Conversiones</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Dashboard</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Dashboard</shortDescription>
+        <value>Dashboard</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Dashboard_EDS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Dashboard_EDS</shortDescription>
+        <value>Dashboard</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Dato_a_Homologar</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Dato_a_Homologar</shortDescription>
+        <value>No se pudo homologar el campo &lt;&lt;campo&gt;&gt;.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_EDS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_EDS</shortDescription>
+        <value>EDS</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Ejecutivo_de_cuenta</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Ejecutivo_de_cuenta</shortDescription>
+        <value>Ejecutivo_de_cuenta</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_Autenticacion_NroDocumento</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_Autenticacion_NroDocumento</shortDescription>
+        <value>El registro no se pudo hacer, por favor dirigirte al sitio de &lt;a href=&quot;https://www.lifemiles.com&quot;&gt;LifeMiles&lt;/a&gt; y actualiza tus datos.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_Cliente_No_Acumula</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_Cliente_No_Acumula</shortDescription>
+        <value>Clientes que no pertenezcan al Club Terpel no pueden acumular</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_Desencriptando</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_Desencriptando</shortDescription>
+        <value>Error procesando los datos.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_General_Acumulacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_General_Acumulacion</shortDescription>
+        <value>LifeMiles retornó una respuesta inesperada</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_General_Redencion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_General_Redencion</shortDescription>
+        <value>Ocurrió un error cuando LifeMiles procesó la transacción</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_Generico_Registro_Clientes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_Generico_Registro_Clientes</shortDescription>
+        <value>Ocurrió un error procesando la información del cliente.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_No_PIN</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_No_PIN</shortDescription>
+        <value>No llegó el PIN del cliente en la transacción</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_Origen_Transaccion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_Origen_Transaccion</shortDescription>
+        <value>No se pudo identificar el origen de la transacción.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_RT_B2C</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_RT_B2C</shortDescription>
+        <value>No se ha configurado el tipo de registro para Cuenta Personal (B2C), por favor comuníquese con el administrador del sistema.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Error_RT_ClienteLifeMiles</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Error_RT_ClienteLifeMiles</shortDescription>
+        <value>No se ha configurado el tipo de registro para Clientes LifeMiles, por favor comuníquese con el administrador del sistema.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Estado_Rechazado</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Estado_Rechazado</shortDescription>
+        <value>Rechazado</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Estado_cartera</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Estado_cartera</shortDescription>
+        <value>Estado_cartera</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Jefe_de_zona_url</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Jefe_de_zona_url</shortDescription>
+        <value>Jefe_de_zona_url</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Mensaje_Cliente_Duplicado_LM</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Mensaje_Cliente_Duplicado_LM</shortDescription>
+        <value>Ya estás registrado en LifeMiles, inicie sesión desde el formulario de Login, si no recuerda su contraseña seleccione &quot;Olvide mi contraseña&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Mensaje_Error_Acumulacion_LM</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Mensaje_Error_Acumulacion_LM</shortDescription>
+        <value>La acumulación no se pudo realizar, por favor consulte sus millas mas tarde.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Mensaje_Error_Redencion_LM</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Mensaje_Error_Redencion_LM</shortDescription>
+        <value>La redención no se pudo realizar, por favor intente de nuevo mas tarde</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Mensaje_Error_Reportes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Mensaje_Error_Reportes</shortDescription>
+        <value>Si el error persiste comuníquese con el administrador del sistema.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Mercadeo</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Mercadeo</shortDescription>
+        <value>Mercadeo</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_MsjError_VoucherExpirado</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_MsjError_VoucherExpirado</shortDescription>
+        <value>El voucher se encuentra expirado</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Msj_Error_Edad</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Msj_Error_Edad</shortDescription>
+        <value>Lo siento pero solo personas mayores de 18 años pueden hacer parte de Club Terpel.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Nombre_Programa_Club_Terpel</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Nombre_Programa_Club_Terpel</shortDescription>
+        <value>Club Terpel</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_PDV_No_Es_ClubTerpel</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_PDV_No_Es_ClubTerpel</shortDescription>
+        <value>El punto de venta no pertenece al club terpel</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_PDV_No_Reclama</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_PDV_No_Reclama</shortDescription>
+        <value>El punto de venta no esta autorizado para reclamar</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_PDV_No_Redime</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_PDV_No_Redime</shortDescription>
+        <value>El punto de venta no esta autorizado para redimir</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_PITS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_PITS</shortDescription>
+        <value>PITS</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Pedidos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Pedidos</shortDescription>
+        <value>Pedidos</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Placas</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Placas</shortDescription>
+        <value>Placas</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Proceso_Acumulacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Proceso_Acumulacion</shortDescription>
+        <value>Acumulacion</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Proceso_Registro_Clientes</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Proceso_Registro_Clientes</shortDescription>
+        <value>Registro Clientes</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Producto</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Producto</shortDescription>
+        <value>Producto</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_RT_ClienteLifeMiles</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_RT_ClienteLifeMiles</shortDescription>
+        <value>Fielo_ClienteLifeMiles</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_RT_ClienteTerpel</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_RT_ClienteTerpel</shortDescription>
+        <value>Fielo_ClienteTerpel</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_RT_TarjetaPreinscrita</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_RT_TarjetaPreinscrita</shortDescription>
+        <value>Fielo_TarjetaPreinscrita</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Sufijo_Usuario_Fielo</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Sufijo_Usuario_Fielo</shortDescription>
+        <value>@clubterpel.com</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TDC</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TDC</shortDescription>
+        <value>TDC</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TPI_Activa</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TPI_Activa</shortDescription>
+        <value>Activa</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TPI_Asignada</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TPI_Asignada</shortDescription>
+        <value>Asignada</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TPI_Inactiva</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TPI_Inactiva</shortDescription>
+        <value>Inactiva</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TipoTransaccion_Acumulacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TipoTransaccion_Acumulacion</shortDescription>
+        <value>Acumulacion</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TipoTransaccion_AcumulacionOffLine</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TipoTransaccion_AcumulacionOffLine</shortDescription>
+        <value>Acumulacion fuera de linea</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TipoTransaccion_Cambio_MedioPago</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TipoTransaccion_Cambio_MedioPago﻿</shortDescription>
+        <value>Cambio Medio Pago</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TipoTransaccion_Reclamacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TipoTransaccion_Reclamacion</shortDescription>
+        <value>Reclamacion</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TipoTransaccion_Redencion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TipoTransaccion_Redencion</shortDescription>
+        <value>Redencion</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TipoTransaccion_ReversoAcumulacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TipoTransaccion_ReversoAcumulacion</shortDescription>
+        <value>Reversion de la redencion</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_TipoTransaccion_ReversoRedencion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_TipoTransaccion_ReversoRedencion</shortDescription>
+        <value>Reversion de la acumulacion</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Tipo_Cuenta</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Tipo_Cuenta</shortDescription>
+        <value>Cuenta</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Tipo_EDS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Tipo_EDS</shortDescription>
+        <value>EDS</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_Titulo_Pag_Nprinting</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_Titulo_Pag_Nprinting</shortDescription>
+        <value>Reportes Nptinting</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_UsuarioFielo_Inactivo</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_UsuarioFielo_Inactivo</shortDescription>
+        <value>El usuario se encuentra inactivo, por favor comuniquese con el administrador del sistema.</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_VoucherExpirado</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_VoucherExpirado</shortDescription>
+        <value>Expired</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_VoucherUsado</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_VoucherUsado</shortDescription>
+        <value>Delivered</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_codEstadoTx_Error</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_codEstadoTx_Error</shortDescription>
+        <value>0</value>
+    </labels>
+    <labels>
+        <fullName>Ter_lbl_codEstadoTx_Ok</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Ter_lbl_codEstadoTx_Ok</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>ToggleManager</fullName>
+        <categories>ToggleManager.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Toggle Manager</shortDescription>
+        <value>Set / Unset Manager</value>
+    </labels>
+    <labels>
+        <fullName>TotalPoints</fullName>
+        <categories>ShoppingCart.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Points</shortDescription>
+        <value>Total Points</value>
+    </labels>
+    <labels>
+        <fullName>USERNAME_EXCEDED_MAX_CHARS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>USERNAME_EXCEDED_MAX_CHARS</shortDescription>
+        <value>Usuario excede el número de caacteres permitido</value>
+    </labels>
+    <labels>
+        <fullName>USERNAME_IS_REQUIRED</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>USERNAME_IS_REQUIRED</shortDescription>
+        <value>El usuario es requerido</value>
+    </labels>
+    <labels>
+        <fullName>USERNAME_MAX_CHARACTERS</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>USERNAME_MAX_CHARACTERS</shortDescription>
+        <value>20</value>
+    </labels>
+    <labels>
+        <fullName>Unblock</fullName>
+        <categories>BlockUnblockMember.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unblock</shortDescription>
+        <value>Unblock</value>
+    </labels>
+    <labels>
+        <fullName>Unset</fullName>
+        <categories>ToggleManager.component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unset</shortDescription>
+        <value>Unset</value>
+    </labels>
+    <labels>
+        <fullName>UsernameIsRequired</fullName>
+        <categories>ForgotPasswordFieloController.cls</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required Username</shortDescription>
+        <value>E-mail is required</value>
+    </labels>
+    <labels>
+        <fullName>Voucher</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Voucher</shortDescription>
+        <value>Voucher</value>
+    </labels>
+    <labels>
+        <fullName>Welcome</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome</shortDescription>
+        <value>Registration Step 2</value>
+    </labels>
+    <labels>
+        <fullName>Wish</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>zz_deprecated_Fielo_WishOff</shortDescription>
+        <value>Wish</value>
+    </labels>
+    <labels>
+        <fullName>security_error_field_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>security_error_field_not_insertable</shortDescription>
+        <value>You do not have permission to insert field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>security_error_field_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>security_error_field_not_readable</shortDescription>
+        <value>You do not have permission to read the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>security_error_field_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>security_error_field_not_updateable</shortDescription>
+        <value>You do not have permission to update the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>security_error_object_not_deletable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>security_error_object_not_deletable</shortDescription>
+        <value>You do not have permission to delete {0}</value>
+    </labels>
+    <labels>
+        <fullName>security_error_object_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>security_error_object_not_insertable</shortDescription>
+        <value>You do not have permission to insert {0}</value>
+    </labels>
+    <labels>
+        <fullName>security_error_object_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>security_error_object_not_readable</shortDescription>
+        <value>You do not have permission to read {0}</value>
+    </labels>
+    <labels>
+        <fullName>security_error_object_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>security_error_object_not_updateable</shortDescription>
+        <value>You do not have permission to update {0}</value>
+    </labels>
+</CustomLabels>

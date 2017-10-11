@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Ter_Codigo_Error__c</fullName>
+        <description>Código del error</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Código del error</inlineHelpText>
+        <label>Código Error</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Mensaje__c</fullName>
+        <description>Mensaje asociado al código de error.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mensaje asociado al código de error.</inlineHelpText>
+        <label>Mensaje</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Proceso__c</fullName>
+        <description>Indica el proceso en el cual se usa el código de error</description>
+        <externalId>false</externalId>
+        <label>Proceso</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Códigos Errores</label>
+    <visibility>Public</visibility>
+</CustomObject>

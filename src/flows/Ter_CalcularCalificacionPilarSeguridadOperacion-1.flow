@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Asignar_Calificaci_n_Pilar_Seguridad_Operaci_n</name>
+        <label>Asignar Calificación Pilar Seguridad Operación</label>
+        <locationX>865</locationX>
+        <locationY>1499</locationY>
+        <assignmentItems>
+            <assignToReference>ActaEncuestaObjeto.Ter_Calif_pilar_Seguridad_operaci_n2__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CalificacionPilarSeguridadOperacionFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Actualizar_Acta_Encuesta</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_1</name>
+        <label>Sumar ContarA 1</label>
+        <locationX>599</locationX>
+        <locationY>1457</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Se_alizaci_n_Islas_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_10</name>
+        <label>Sumar ContarA 10</label>
+        <locationX>583</locationX>
+        <locationY>287</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Sistema_de_protecci_n_contra_ca_das_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_11</name>
+        <label>Sumar ContarA 11</label>
+        <locationX>581</locationX>
+        <locationY>173</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Extintores_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_2</name>
+        <label>Sumar ContarA 2</label>
+        <locationX>591</locationX>
+        <locationY>1321</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Se_alizaci_n_descargue_de_combustibles_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_3</name>
+        <label>Sumar ContarA 3</label>
+        <locationX>591</locationX>
+        <locationY>1181</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Extintores2_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_4</name>
+        <label>Sumar ContarA 4</label>
+        <locationX>595</locationX>
+        <locationY>1063</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Botiqu_n_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_5</name>
+        <label>Sumar ContarA 5</label>
+        <locationX>589</locationX>
+        <locationY>923</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaci_n_uso_de_extintores_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_6</name>
+        <label>Sumar ContarA 6</label>
+        <locationX>585</locationX>
+        <locationY>794</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaci_n_primeros_auxilios_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_7</name>
+        <label>Sumar ContarA 7</label>
+        <locationX>577</locationX>
+        <locationY>667</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaci_n_trabajo_en_alturas_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_8</name>
+        <label>Sumar ContarA 8</label>
+        <locationX>585</locationX>
+        <locationY>542</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Elementos_de_protecci_n_personal_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarA_9</name>
+        <label>Sumar ContarA 9</label>
+        <locationX>579</locationX>
+        <locationY>419</locationY>
+        <assignmentItems>
+            <assignToReference>ContarA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>EPPs_para_trabajo_en_alturas_con_valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_1</name>
+        <label>Sumar ContarC 1</label>
+        <locationX>219</locationX>
+        <locationY>151</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Se_alizaci_n_Islas_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_10</name>
+        <label>Sumar ContarC 10</label>
+        <locationX>211</locationX>
+        <locationY>1244</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Sistema_de_Protecci_n_contra_Ca_das_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_11</name>
+        <label>Sumar ContarC 11</label>
+        <locationX>205</locationX>
+        <locationY>1373</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Extintores_con_Valor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_2</name>
+        <label>Sumar ContarC 2</label>
+        <locationX>217</locationX>
+        <locationY>271</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Se_alizaci_n_Descargue_de_Combustible_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_3</name>
+        <label>Sumar ContarC 3</label>
+        <locationX>213</locationX>
+        <locationY>383</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Extintores2_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_4</name>
+        <label>Sumar ContarC 4</label>
+        <locationX>217</locationX>
+        <locationY>501</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Botiqu_n_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_5</name>
+        <label>Sumar ContarC 5</label>
+        <locationX>213</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaci_n_uso_de_extintores_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_6</name>
+        <label>Sumar ContarC 6</label>
+        <locationX>217</locationX>
+        <locationY>739</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaici_n_Primeros_Auxilios_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_7</name>
+        <label>Sumar ContarC 7</label>
+        <locationX>219</locationX>
+        <locationY>858</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaci_n_Trabajo_en_Alturas_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_8</name>
+        <label>Sumar ContarC 8</label>
+        <locationX>221</locationX>
+        <locationY>981</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Elementos_de_protecci_n_personal_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarC_9</name>
+        <label>Sumar ContarC 9</label>
+        <locationX>225</locationX>
+        <locationY>1116</locationY>
+        <assignmentItems>
+            <assignToReference>ContarC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>EPPs_para_trabajo_en_altura_igual_C</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_1</name>
+        <label>Sumar ContarNA 1</label>
+        <locationX>953</locationX>
+        <locationY>97</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Se_alizaci_n_islas_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_10</name>
+        <label>Sumar ContarNA 10</label>
+        <locationX>953</locationX>
+        <locationY>1265</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Sistema_de_protecci_n_contra_ca_das_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_11</name>
+        <label>Sumar ContarNA 11</label>
+        <locationX>963</locationX>
+        <locationY>1387</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Asignar_Calificaci_n_Pilar_Seguridad_Operaci_n</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_2</name>
+        <label>Sumar ContarNA 2</label>
+        <locationX>951</locationX>
+        <locationY>220</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Se_alizaci_n_descargue_de_combustibles_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_3</name>
+        <label>Sumar ContarNA 3</label>
+        <locationX>953</locationX>
+        <locationY>340</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Extintores2_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_4</name>
+        <label>Sumar ContarNA 4</label>
+        <locationX>961</locationX>
+        <locationY>467</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Botiqu_n_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_5</name>
+        <label>Sumar ContarNA 5</label>
+        <locationX>961</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaci_n_uso_de_extintores_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_6</name>
+        <label>Sumar ContarNA 6</label>
+        <locationX>955</locationX>
+        <locationY>746</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaci_n_primeros_auxilios_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_7</name>
+        <label>Sumar ContarNA 7</label>
+        <locationX>953</locationX>
+        <locationY>873</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Capacitaci_n_trabajo_en_alturas_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_8</name>
+        <label>Sumar ContarNA 8</label>
+        <locationX>947</locationX>
+        <locationY>1009</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Elementos_de_protecci_n_personal_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Sumar_ContarNA_9</name>
+        <label>Sumar ContarNA 9</label>
+        <locationX>957</locationX>
+        <locationY>1135</locationY>
+        <assignmentItems>
+            <assignToReference>ContarNA</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>EPPs_para_trabajo_en_alturas_igual_NA</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Botiqu_n_con_valor</name>
+        <label>Botiquín con valor</label>
+        <locationX>377</locationX>
+        <locationY>921</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaci_n_uso_de_extintores_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Botiquín con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Botiqu_n_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Botiqu_n__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_5</targetReference>
+            </connector>
+            <label>Botiquín con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Botiqu_n_igual_C</name>
+        <label>Botiquín igual C</label>
+        <locationX>37</locationX>
+        <locationY>619</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaci_n_uso_de_extintores_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Botiquín igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Botiqu_n_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Botiqu_n__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_5</targetReference>
+            </connector>
+            <label>Botiquín igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Botiqu_n_igual_NA</name>
+        <label>Botiquín igual NA</label>
+        <locationX>761</locationX>
+        <locationY>623</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaci_n_uso_de_extintores_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Botiquín igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Botiqu_n_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Botiqu_n__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_5</targetReference>
+            </connector>
+            <label>Botiquín igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaci_n_primeros_auxilios_con_valor</name>
+        <label>Capacitación primeros auxilios con valor</label>
+        <locationX>379</locationX>
+        <locationY>666</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaci_n_trabajo_en_alturas_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitación primeros auxilios con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaci_n_primeros_auxilios_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_primeros_auxilios__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_7</targetReference>
+            </connector>
+            <label>Capacitación primeros auxilios con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaci_n_primeros_auxilios_igual_NA</name>
+        <label>Capacitación primeros auxilios igual NA</label>
+        <locationX>757</locationX>
+        <locationY>875</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaci_n_trabajo_en_alturas_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitación primeros auxilios igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaci_n_primeros_auxilios_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_primeros_auxilios__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_7</targetReference>
+            </connector>
+            <label>Capacitación primeros auxilios igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaci_n_trabajo_en_alturas_con_valor</name>
+        <label>Capacitación trabajo en alturas con valor</label>
+        <locationX>381</locationX>
+        <locationY>550</locationY>
+        <defaultConnector>
+            <targetReference>Elementos_de_protecci_n_personal_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitación trabajo en alturas con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaci_n_trabajo_en_alturas_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_trabajo_en_alturas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_8</targetReference>
+            </connector>
+            <label>Capacitación trabajo en alturas con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaci_n_Trabajo_en_Alturas_igual_C</name>
+        <label>Capacitación Trabajo en Alturas igual C</label>
+        <locationX>21</locationX>
+        <locationY>983</locationY>
+        <defaultConnector>
+            <targetReference>Elementos_de_protecci_n_personal_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitación Trabajo en Alturas igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaci_n_Trabajo_en_Alturas_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_trabajo_en_alturas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_8</targetReference>
+            </connector>
+            <label>Capacitación Trabajo en Alturas igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaci_n_trabajo_en_alturas_igual_NA</name>
+        <label>Capacitación trabajo en alturas igual NA</label>
+        <locationX>761</locationX>
+        <locationY>1009</locationY>
+        <defaultConnector>
+            <targetReference>Elementos_de_protecci_n_personal_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitación trabajo en alturas igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaci_n_trabajo_en_alturas_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_trabajo_en_alturas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_8</targetReference>
+            </connector>
+            <label>Capacitación trabajo en alturas igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaci_n_uso_de_extintores_con_valor</name>
+        <label>Capacitación uso de extintores con valor</label>
+        <locationX>383</locationX>
+        <locationY>793</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaci_n_primeros_auxilios_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitación uso de extintores con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaci_n_uso_de_extintores_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_uso_de_extintores__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_6</targetReference>
+            </connector>
+            <label>Capacitación uso de extintores con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaci_n_uso_de_extintores_igual_C</name>
+        <label>Capacitación uso de extintores igual C</label>
+        <locationX>31</locationX>
+        <locationY>741</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaici_n_Primeros_Auxilios_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitación uso de extintores igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaci_n_uso_de_extintores_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_uso_de_extintores__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_6</targetReference>
+            </connector>
+            <label>Capacitación uso de extintores igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaci_n_uso_de_extintores_igual_NA</name>
+        <label>Capacitación uso de extintores igual NA</label>
+        <locationX>759</locationX>
+        <locationY>745</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaci_n_primeros_auxilios_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitación uso de extintores igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaci_n_uso_de_extintores_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_uso_de_extintores__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_6</targetReference>
+            </connector>
+            <label>Capacitación uso de extintores igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Capacitaici_n_Primeros_Auxilios_igual_C</name>
+        <label>Capacitaición Primeros Auxilios igual C</label>
+        <locationX>31</locationX>
+        <locationY>858</locationY>
+        <defaultConnector>
+            <targetReference>Capacitaci_n_Trabajo_en_Alturas_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Capacitaición Primeros Auxilios igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Capacitaici_n_Primeros_Auxilios_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Capacitaci_n_primeros_auxilios__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_7</targetReference>
+            </connector>
+            <label>Capacitaición Primeros Auxilios igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Elementos_de_protecci_n_personal_con_valor</name>
+        <label>Elementos de protección personal con valor</label>
+        <locationX>383</locationX>
+        <locationY>417</locationY>
+        <defaultConnector>
+            <targetReference>EPPs_para_trabajo_en_alturas_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Elementos de protección personal con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Elementos_de_protecci_n_personal_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Elementos_de_protecci_n_personal__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_9</targetReference>
+            </connector>
+            <label>Elementos de protección personal con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Elementos_de_protecci_n_personal_igual_C</name>
+        <label>Elementos de protección personal igual C</label>
+        <locationX>21</locationX>
+        <locationY>1109</locationY>
+        <defaultConnector>
+            <targetReference>EPPs_para_trabajo_en_altura_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Elementos de protección personal igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Elementos_de_protecci_n_personal_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Elementos_de_protecci_n_personal__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_9</targetReference>
+            </connector>
+            <label>Elementos de protección personal igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Elementos_de_protecci_n_personal_igual_NA</name>
+        <label>Elementos de protección personal igual NA</label>
+        <locationX>767</locationX>
+        <locationY>1135</locationY>
+        <defaultConnector>
+            <targetReference>EPPs_para_trabajo_en_alturas_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Elementos de protección personal igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Elementos_de_protecci_n_personal_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Elementos_de_protecci_n_personal__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_9</targetReference>
+            </connector>
+            <label>Elementos de protección personal igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>EPPs_para_trabajo_en_altura_igual_C</name>
+        <label>EPPs para trabajo en altura igual C</label>
+        <locationX>23</locationX>
+        <locationY>1243</locationY>
+        <defaultConnector>
+            <targetReference>Sistema_de_Protecci_n_contra_Ca_das_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>EPPs para trabajo en altura igual C No</defaultConnectorLabel>
+        <rules>
+            <name>EPPs_para_trabajo_en_altura_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Elementos_de_proteccion_alturas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_10</targetReference>
+            </connector>
+            <label>EPPs para trabajo en altura igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>EPPs_para_trabajo_en_alturas_con_valor</name>
+        <label>EPPs para trabajo en alturas con valor</label>
+        <locationX>383</locationX>
+        <locationY>297</locationY>
+        <defaultConnector>
+            <targetReference>Sistema_de_protecci_n_contra_ca_das_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>EPPs para trabajo en alturas con valor No</defaultConnectorLabel>
+        <rules>
+            <name>EPPs_para_trabajo_en_alturas_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Elementos_de_proteccion_alturas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_10</targetReference>
+            </connector>
+            <label>EPPs para trabajo en alturas con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>EPPs_para_trabajo_en_alturas_igual_NA</name>
+        <label>EPPs para trabajo en alturas igual NA</label>
+        <locationX>773</locationX>
+        <locationY>1268</locationY>
+        <defaultConnector>
+            <targetReference>Sistema_de_protecci_n_contra_ca_das_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>EPPs para trabajo en alturas igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>EPPs_para_trabajo_en_alturas_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Elementos_de_proteccion_alturas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_10</targetReference>
+            </connector>
+            <label>EPPs para trabajo en alturas igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Extintores2_con_valor</name>
+        <label>Extintores2 con valor</label>
+        <locationX>381</locationX>
+        <locationY>1064</locationY>
+        <defaultConnector>
+            <targetReference>Botiqu_n_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Extintores2 con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Extintores2_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Extintores__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_4</targetReference>
+            </connector>
+            <label>Extintores2 con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Extintores2_igual_C</name>
+        <label>Extintores2 igual C</label>
+        <locationX>39</locationX>
+        <locationY>505</locationY>
+        <defaultConnector>
+            <targetReference>Botiqu_n_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Extintores2 igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Extintores2_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Extintores__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_4</targetReference>
+            </connector>
+            <label>Extintores2 igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Extintores2_igual_NA</name>
+        <label>Extintores2 igual NA</label>
+        <locationX>769</locationX>
+        <locationY>476</locationY>
+        <defaultConnector>
+            <targetReference>Botiqu_n_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Extintores2 igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Extintores2_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Extintores__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_4</targetReference>
+            </connector>
+            <label>Extintores2 igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Extintores_con_Valor</name>
+        <label>Extintores con Valor</label>
+        <locationX>395</locationX>
+        <locationY>1459</locationY>
+        <defaultConnector>
+            <targetReference>Se_alizaci_n_Islas_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Extintores con Valor No</defaultConnectorLabel>
+        <rules>
+            <name>Extintores_con_Valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Extintores_pil_segridad_ope__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_1</targetReference>
+            </connector>
+            <label>Extintores con Valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Extintores_igual_C</name>
+        <label>Extintores igual C</label>
+        <locationX>53</locationX>
+        <locationY>150</locationY>
+        <defaultConnector>
+            <targetReference>Se_alizaci_n_Islas_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Resultado predeterminado]</defaultConnectorLabel>
+        <rules>
+            <name>Extintores_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Extintores_pil_segridad_ope__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_1</targetReference>
+            </connector>
+            <label>Extintores igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Extintores_igual_NA</name>
+        <label>Extintores igual NA</label>
+        <locationX>755</locationX>
+        <locationY>97</locationY>
+        <defaultConnector>
+            <targetReference>Se_alizaci_n_islas_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Extintores igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Extintores_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Ter_Extintores_pil_segridad_ope__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_1</targetReference>
+            </connector>
+            <label>Extintores igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Se_alizaci_n_Descargue_de_Combustible_igual_C</name>
+        <label>Señalización Descargue de Combustible igual C</label>
+        <locationX>45</locationX>
+        <locationY>381</locationY>
+        <defaultConnector>
+            <targetReference>Extintores2_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Señalización Descargue de Combustible igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Se_alizaci_n_Descargue_de_Combustible_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Se_alizaci_n_descargue_de_combustible__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_3</targetReference>
+            </connector>
+            <label>Señalización Descargue de Combustible igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Se_alizaci_n_descargue_de_combustibles_con_valor</name>
+        <label>Señalización descargue de combustibles con valor</label>
+        <locationX>381</locationX>
+        <locationY>1183</locationY>
+        <defaultConnector>
+            <targetReference>Extintores2_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Señalización descargue de combustibles con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Se_alizaci_n_descargue_de_combustibles_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Se_alizaci_n_descargue_de_combustible__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_3</targetReference>
+            </connector>
+            <label>Señalización descargue de combustibles con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Se_alizaci_n_descargue_de_combustibles_igual_NA</name>
+        <label>Señalización descargue de combustibles igual NA</label>
+        <locationX>765</locationX>
+        <locationY>348</locationY>
+        <defaultConnector>
+            <targetReference>Extintores2_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Señalización descargue de combustibles igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Se_alizaci_n_descargue_de_combustibles_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Se_alizaci_n_descargue_de_combustible__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_3</targetReference>
+            </connector>
+            <label>Señalización descargue de combustibles igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Se_alizaci_n_Islas_con_valor</name>
+        <label>Señalización Islas con valor</label>
+        <locationX>387</locationX>
+        <locationY>1325</locationY>
+        <defaultConnector>
+            <targetReference>Se_alizaci_n_descargue_de_combustibles_con_valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Señalización Islas con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Se_alizaci_n_Islas_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Se_alizaci_n_islas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_2</targetReference>
+            </connector>
+            <label>Señalización Islas con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Se_alizaci_n_Islas_igual_C</name>
+        <label>Señalización Islas igual C</label>
+        <locationX>49</locationX>
+        <locationY>266</locationY>
+        <defaultConnector>
+            <targetReference>Se_alizaci_n_Descargue_de_Combustible_igual_C</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Señalización Islas igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Se_alizaci_n_Islas_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Se_alizaci_n_islas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_2</targetReference>
+            </connector>
+            <label>Señalización Islas igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Se_alizaci_n_islas_igual_NA</name>
+        <label>Señalización islas igual NA</label>
+        <locationX>759</locationX>
+        <locationY>226</locationY>
+        <defaultConnector>
+            <targetReference>Se_alizaci_n_descargue_de_combustibles_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Señalización islas igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Se_alizaci_n_islas_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Se_alizaci_n_islas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_2</targetReference>
+            </connector>
+            <label>Señalización islas igual NA Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sistema_de_protecci_n_contra_ca_das_con_valor</name>
+        <label>Sistema de protección contra caídas con valor</label>
+        <locationX>381</locationX>
+        <locationY>182</locationY>
+        <defaultConnector>
+            <targetReference>Extintores_igual_NA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Sistema de protección contra caídas con valor No</defaultConnectorLabel>
+        <rules>
+            <name>Sistema_de_protecci_n_contra_ca_das_con_valor_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Sistema_de_protecci_n_contra_caidas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarA_11</targetReference>
+            </connector>
+            <label>Sistema de protección contra caídas con valor Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sistema_de_Protecci_n_contra_Ca_das_igual_C</name>
+        <label>Sistema de Protección contra Caídas igual C</label>
+        <locationX>19</locationX>
+        <locationY>1369</locationY>
+        <defaultConnector>
+            <targetReference>Extintores_con_Valor</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Sistema de Protección contra Caídas igual C No</defaultConnectorLabel>
+        <rules>
+            <name>Sistema_de_Protecci_n_contra_Ca_das_igual_C_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Sistema_de_protecci_n_contra_caidas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cumple</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarC_11</targetReference>
+            </connector>
+            <label>Sistema de Protección contra Caídas igual C Si</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sistema_de_protecci_n_contra_ca_das_igual_NA</name>
+        <label>Sistema de protección contra caídas igual NA</label>
+        <locationX>767</locationX>
+        <locationY>1383</locationY>
+        <defaultConnector>
+            <targetReference>Asignar_Calificaci_n_Pilar_Seguridad_Operaci_n</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Sistema de protección contra caídas igual NA No</defaultConnectorLabel>
+        <rules>
+            <name>Sistema_de_protecci_n_contra_ca_das_igual_NA_Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ActaEncuestaObjeto.Sistema_de_protecci_n_contra_caidas__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Aplica</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sumar_ContarNA_11</targetReference>
+            </connector>
+            <label>Sistema de protección contra caídas igual NA Si</label>
+        </rules>
+    </decisions>
+    <description>Calcula la Calificación del Pilar Seguridad Operación en una Acta de Gestión Ambiental</description>
+    <formulas>
+        <name>CalificacionPilarSeguridadOperacionFormula</name>
+        <dataType>Number</dataType>
+        <expression>({!ContarC}/({!ContarA}-{!ContarNA}))*5</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Calcular Calificación Pilar Seguridad Operación {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Calcular Calificación Pilar Seguridad Operación 1</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Buscar_Acta_Encuesta</name>
+        <label>Buscar Acta Encuesta</label>
+        <locationX>47</locationX>
+        <locationY>38</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Extintores_igual_C</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IdActaEncuesta</elementReference>
+            </value>
+        </filters>
+        <object>Ter_Acta_Encuesta__c</object>
+        <outputReference>ActaEncuestaObjeto</outputReference>
+        <queriedFields>Ter_Extintores_pil_segridad_ope__c</queriedFields>
+        <queriedFields>Se_alizaci_n_islas__c</queriedFields>
+        <queriedFields>Se_alizaci_n_descargue_de_combustible__c</queriedFields>
+        <queriedFields>Extintores__c</queriedFields>
+        <queriedFields>Botiqu_n__c</queriedFields>
+        <queriedFields>Capacitaci_n_uso_de_extintores__c</queriedFields>
+        <queriedFields>Capacitaci_n_primeros_auxilios__c</queriedFields>
+        <queriedFields>Capacitaci_n_trabajo_en_alturas__c</queriedFields>
+        <queriedFields>Elementos_de_protecci_n_personal__c</queriedFields>
+        <queriedFields>Ter_Elementos_de_proteccion_alturas__c</queriedFields>
+        <queriedFields>Sistema_de_protecci_n_contra_caidas__c</queriedFields>
+        <queriedFields>Ter_Comentarios_Pila_Seguridad_Operacion__c</queriedFields>
+        <queriedFields>Ter_Calif_pilar_Seguridad_operaci_n2__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Actualizar_Acta_Encuesta</name>
+        <label>Actualizar Acta Encuesta</label>
+        <locationX>1097</locationX>
+        <locationY>1501</locationY>
+        <inputReference>ActaEncuestaObjeto</inputReference>
+    </recordUpdates>
+    <startElementReference>Buscar_Acta_Encuesta</startElementReference>
+    <variables>
+        <name>ActaEncuestaObjeto</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Ter_Acta_Encuesta__c</objectType>
+    </variables>
+    <variables>
+        <name>ContarA</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContarC</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContarNA</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>IdActaEncuesta</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

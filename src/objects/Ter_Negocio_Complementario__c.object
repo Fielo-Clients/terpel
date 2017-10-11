@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Este objeto contiene los registros de los negocios complementarios de las estaciones de servicio de Terpel.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>F_Acumula__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Acumula</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_ClubTerpel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Habilitar para el programa de Fidelización &quot;Club Terpel&quot; (Fielo)</inlineHelpText>
+        <label>Club Terpel</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_Fechaultimatransaccion__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha última transacción</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>F_IdFidelizacion__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Id Fidelizacion</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>F_Reclama__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reclama</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_Redime__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Redime</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Canon_Arriendo__c</fullName>
+        <description>Este campo contiene el valor del cannon de arrendamiento del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Canon Arriendo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Ciudad__c</fullName>
+        <description>Este campo contiene la ciudad del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Ciudad</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Codigo_DIAN__c</fullName>
+        <description>Código de la DIAN asignado al negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Código DIAN</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Codigo_PDV__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Este campo contiene el código PDV del negocio complementario.</description>
+        <externalId>true</externalId>
+        <label>Código PDV</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Codigo_unico_EDS__c</fullName>
+        <description>Este campo corresponde al código único de la estación de servicio.</description>
+        <externalId>false</externalId>
+        <formula>Ter_EDS__r.Ter_Codigo_unico__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Código único EDS</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Departamento__c</fullName>
+        <description>Este campo contiene el departamento del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Departamento</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Direccion__c</fullName>
+        <description>Este campo contiene la dirección del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Dirección</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_EDS__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Este campo corresponde a la relación entre la estación de servicio con sus negocios complementarios.</description>
+        <externalId>false</externalId>
+        <label>EDS</label>
+        <referenceTo>Ter_Estacion_de_Servicio__c</referenceTo>
+        <relationshipLabel>Negocios Complementarios</relationshipLabel>
+        <relationshipName>Negocios_Complementarios</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Fecha_apertura__c</fullName>
+        <description>Este campo contiene la fecha de apertura del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Fecha apertura</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Fecha_de_vencimiento__c</fullName>
+        <description>Este campo contiene la fecha de vencimiento del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Fecha de vencimiento</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Formato__c</fullName>
+        <description>Este campo contiene el formato del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Formato</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Latitud__c</fullName>
+        <description>Este campo contiene la latitud del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Latitud</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Longitud__c</fullName>
+        <description>Este campo contiene la longitud del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Longitud</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Motos_Carros__c</fullName>
+        <description>Este campo contiene información sobre motos y carros relacionado con los negocios complementarios.</description>
+        <externalId>false</externalId>
+        <label>Motos/Carros</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_No_Negocio__c</fullName>
+        <description>Este campo contiene el número del negocio complementario.</description>
+        <displayFormat>NC-{000000}-{DD}{MM}{YYYY}</displayFormat>
+        <externalId>false</externalId>
+        <label>No. Negocio</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Ter_Regional__c</fullName>
+        <description>Este campo contiene la regional del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Regional</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Ubicacion__c</fullName>
+        <description>Este campo contiene la ubicación del negocio complementario.</description>
+        <externalId>false</externalId>
+        <label>Ubicación</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ter_Usuario__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Usuario</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Negocios_Complementarios</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <gender>Masculine</gender>
+    <label>Negocio Complementario</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+    </listViews>
+    <nameField>
+        <label>Nombre</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Negocios Complementarios</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Ter_Autolavado</fullName>
+        <active>true</active>
+        <description>Este tipo de registro corresponde a los negocios de tipo autolavado.</description>
+        <label>Autolavado</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Ter_Centro_de_Lubricacion</fullName>
+        <active>true</active>
+        <description>Este tipo de registro corresponde a los negocios de tipo centro de lubricación.</description>
+        <label>Centro de Lubricación</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Ter_Kiosco</fullName>
+        <active>true</active>
+        <description>Este tipo de registro corresponde a los negocios de tipo kiosco.</description>
+        <label>Kiosco</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Ter_Local_Comercial</fullName>
+        <active>true</active>
+        <description>Este tipo de registro corresponde a los negocios de tipo local comercial.</description>
+        <label>Local Comercial</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Ter_Tienda_de_Conveniencia</fullName>
+        <active>true</active>
+        <description>Este tipo de registro corresponde a los negocios de tipo tienda de conveniencia.</description>
+        <label>Tienda de Conveniencia</label>
+    </recordTypes>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Ter_Codigo_PDV__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Ter_Ciudad__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Fielo_NNCC_RestringirActualizacionName</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+ $Profile.Name = &apos;Fielo Backend User&apos;
+,ISCHANGED(Name) 
+)</errorConditionFormula>
+        <errorDisplayField>Name</errorDisplayField>
+        <errorMessage>Tu perfil no permite la edición del campo Nombre</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Fielo_TTCC_IdFidelizacionRequerido</fullName>
+        <active>true</active>
+        <errorConditionFormula>F_ClubTerpel__c &amp;&amp; ISBLANK(F_IdFidelizacion__c)</errorConditionFormula>
+        <errorDisplayField>F_IdFidelizacion__c</errorDisplayField>
+        <errorMessage>Para poder habilitar el punto de venta en Club Terpel el campo Id Fidelización es Requerido</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TER_NCOM_001_Valida_propietario</fullName>
+        <active>true</active>
+        <description>Esta regla valida que el campo propietario no se modifique por algunos perfiles.</description>
+        <errorConditionFormula>AND( 
+ISCHANGED(OwnerId), 
+$Profile.Name &lt;&gt; &quot;Administrador del sistema&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador Funcional Plataforma&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador Técnico Plataforma&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador Funcional Comercial&quot;, 
+$Profile.Name &lt;&gt; &quot;Cartera&quot; 
+)</errorConditionFormula>
+        <errorMessage>TER-NCOM-001: Su perfil no permite modificar el propietario.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

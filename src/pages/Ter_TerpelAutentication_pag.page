@@ -1,0 +1,24 @@
+<apex:page controller="Ter_TerpelAutentication_ctr" showHeader="false" sidebar="false" action="{!procesarRegistro}">
+	<!--<div id="elDiv">
+        <apex:outputText value="{!strHTML}" escape="false"/>
+    </div>-->
+	<apex:form id="idForm">
+		<apex:pagemessages id="TheMessages"/>
+		<div id="_elDiv">
+	        <apex:outputText value="{!strHTMLError}" escape="false" rendered="{!blnError}"/>
+	    </div>
+ 		<!--<apex:outputText value="{!strDatos}" escape="false" />-->
+	 </apex:form>
+	
+    <script type="text/javascript">
+        //Funcion autoejecutable que redirige si todo esta OK
+        (function(){
+            var isError = '{!blnError}' == 'true';
+            
+            if(!isError){
+                //window.top.location.href = "https://devfie-clubterpel.cs66.force.com/FieloCMS__Page?navId=a0u0v0000000r1e";
+               window.top.location.href = "{!strUrlRedirect}";
+            }
+        })();
+    </script>
+</apex:page>

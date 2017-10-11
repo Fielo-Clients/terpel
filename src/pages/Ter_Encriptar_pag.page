@@ -1,0 +1,108 @@
+<apex:page Controller="Ter_Encriptar_ctr">
+    <apex:pagemessages id="TheMessages"/>
+    
+    <apex:form id="idForm">
+        <apex:pageBlock title="Página para Encriptar" id="idPageBlock">
+            <apex:pageBlockSection title="Parametros Individuales" columns="2" id="_bloqueEncriptar">
+                <apex:inputText value="{!strFfn}" id="_strFfn" label="FFN"/>
+                <apex:outputText value="{!strFfnEncr}" id="_strFfnEncr"/>
+                
+                <apex:inputText value="{!strFname}" id="_strFname" label="FNAME"/>
+                <apex:outputText value="{!strFnameEncr}" id="_strFnameEncr"/>
+                
+                <apex:inputText value="{!strSname}" id="_strSname" label="SNAME"/>
+                <apex:outputText value="{!strSnameEncr}" id="_strSnameEncr"/>
+                
+                <apex:inputText value="{!strPlname}" id="_strPlname" label="PLNAME"/>
+                <apex:outputText value="{!strPlnameEncr}" id="_strPlnameEncr"/>
+                
+                <apex:inputText value="{!strSlname}" id="_strSlname" label="SLNAME"/>
+                <apex:outputText value="{!strSlnameEncr}" id="_strSlnameEncr"/>
+                
+                <apex:inputText value="{!strBirdt}" id="_strBirdt" label="BIRDT"/>
+                <apex:outputText value="{!strBirdtEncr}" id="_strBirdtEncr"/>
+                
+                <apex:inputText value="{!strEmail}" id="_strEmail" label="EMAIL"/>
+                <apex:outputText value="{!strEmailEncr}" id="_strEmailEncr"/>
+                
+                <apex:inputText value="{!strPhone}" id="_strPhone" label="PHONE"/>
+                <apex:outputText value="{!strPhoneEncr}" id="_strPhoneEncr"/>
+                
+                <apex:inputText value="{!strGend}" id="_strGend" label="GEND"/>
+                <apex:outputText value="{!strGendEncr}" id="_strGendEncr"/>
+                
+                <apex:inputText value="{!strPostcod}" id="_strPostcod" label="POSTCOD"/>
+                <apex:outputText value="{!strPostcodEncr}" id="_strPostcodEncr"/>
+                
+                <apex:inputText value="{!strTdoc}" id="_strTdoc" label="TDOC"/>
+                <apex:outputText value="{!strTdocEncr}" id="_strTdocEncr"/>
+                
+                <apex:inputText value="{!strCtrdoc}" id="_strCtrdoc" label="CTRDOC"/>
+                <apex:outputText value="{!strCtrdocEncr}" id="_strCtrdocEncr"/>
+                
+                <apex:inputText value="{!strNdoc}" id="_strNdoc" label="NDOC"/>
+                <apex:outputText value="{!strNdocEncr}" id="_strNdocEncr"/>
+                
+                <apex:inputText value="{!strLang}" id="_strLang" label="LANG"/>
+                <apex:outputText value="{!strLangEncr}" id="_strLangEncr"/>
+                
+                <apex:inputText value="{!strAddrc}" id="_strAddrc" label="ADDRC"/>
+                <apex:outputText value="{!strAddrcEncr}" id="_strAddrcEncr"/>
+                
+                <apex:inputText value="{!strCtrc}" id="_strCtrc" label="CTRC"/>
+                <apex:outputText value="{!strCtrcEncr}" id="_strCtrcEncr"/>
+                
+                <apex:inputText value="{!strStc}" id="_strStc" label="STC"/>
+                <apex:outputText value="{!strStcEncr}" id="_strStcEncr"/>
+                
+                <apex:inputText value="{!strCityc}" id="_strCityc" label="CITYC"/>
+                <apex:outputText value="{!strCitycEncr}" id="_strCitycEncr"/>
+                
+                <apex:inputText value="{!strTyctp}" id="_strTyctp" label="TYCTP"/>
+                <apex:outputText value="{!strTyctpEncr}" id="_strTyctpEncr"/>
+                
+                <apex:inputText value="{!strDtyctp}" id="_strDtyctp" label="DTYCTP"/>
+                <apex:outputText value="{!strDtyctpEncr}" id="_strDtyctpEncr"/>
+                
+                <apex:inputText value="{!strSession}" id="_strSession" label="SESSION"/>
+                <apex:outputText value="{!strSessionEncr}" id="_strSessionEncr"/>
+                
+                <apex:inputText value="{!strBln}" id="_strBln" label="BLN"/>
+                <apex:outputText value="{!strBlnEncr}" id="_strBlnEncr"/>
+                
+                <apex:inputText value="{!strCderror}" id="_strCderror" label="CDERROR"/>
+                <apex:outputText value="{!strCderrorEncr}" id="_strCderrorEncr"/>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection title="Parametros para URL" columns="1" id="_bloqueURLGenerada">
+                <apex:inputTextarea id="_urlGenerada" value="{!strURLGenerada}" style="width:100%"/>
+            </apex:pageBlockSection>
+            
+            <apex:commandButton value="Encriptar" action="{!encriptar}"  reRender="idForm, TheMessages"/>
+            
+            <apex:pageBlockSection title="Parametros Individuales" columns="2" id="_bloqueDesncriptarLM">
+                <apex:inputText value="{!strDatoEncrLM}" id="_strDatoEncrLM" label="Dato a Desencriptar"/>
+                <apex:outputText value="{!strDatoLimpioLM}" id="_strDatoEncriptadoTerpel"/>
+            </apex:pageBlockSection>
+            <apex:commandButton value="Desencriptar" action="{!desencriptarLM}"  reRender="idForm, TheMessages"/>
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="Obtener dirección Ip" id="idObtenerIp">
+            <apex:pageBlockSection title="Parametros Individuales" columns="2" id="_bloqueEncriptar">
+                <apex:commandButton value="Obtener Ip" action="{!obtenerIp}"  reRender="idForm, TheMessages"/>
+                <apex:outputText value="{!strDireccionIp}" id="_strDireccionIp"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="Encriptar datos usando la llave de Terpel" id="idEncriptarTerpel">
+            <apex:pageBlockSection title="Parametros Individuales" columns="2" id="_bloqueEncriptar">
+                <apex:inputText value="{!strDatoLimpioTerpel}" id="_strDatoLimpioTerpel" label="Dato a Encriptar"/>
+                <apex:outputText value="{!strDatoEncriptadoTerpel}" id="_strDatoEncriptadoTerpel"/>
+            </apex:pageBlockSection>
+            
+            <apex:commandButton value="Encriptar" action="{!encriptarTerpel}"  reRender="idForm, TheMessages"/>
+            <apex:commandButton value="Desncriptar" action="{!desencriptarTerpel}"  reRender="idForm, TheMessages"/>
+        </apex:pageBlock>
+        
+    </apex:form>
+</apex:page>

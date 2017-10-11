@@ -1,0 +1,23 @@
+<apex:page controller="Ter_LifemilesGuest_ctr" showHeader="false" sidebar="false" action="{!procesarRegistro}">
+	<!--<div id="elDiv">
+        <apex:outputText value="{!strHTML}" escape="false"/>
+    </div>-->
+    <apex:form id="idForm">
+		<apex:pagemessages id="TheMessages"/>
+		<div id="_elDiv">
+	        <apex:outputText value="{!strHTMLError}" escape="false" rendered="{!blnError}"/> 
+	    </div>
+	 	<!--<apex:outputText value="{!strDatos}" escape="false" />-->
+	 </apex:form>
+	 
+	<script type="text/javascript">
+	    //Funcion autoejecutable que redirige si todo esta OK
+	    (function(){
+	        var isError = '{!blnError}' == 'true';
+	        
+	        if(!isError){
+	           window.top.location.href = "{!strUrlRedirect}";
+	        }
+	    })();
+	</script>
+</apex:page>

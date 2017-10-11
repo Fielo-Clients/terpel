@@ -1,0 +1,281 @@
+<apex:page docType="html-5.0" controller="Ter_TDC_Home_Ctr" showHeader="false" sidebar="false" standardStylesheets="false">
+<apex:stylesheet value="{!$Resource.Ter_TDC_CSS}"/>
+<apex:includeScript value="{!$Resource.Ter_jQuery}"/>
+<apex:includeScript value="{!$Resource.Ter_TDC_JS}"/>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=11" ></meta>
+    <script type="text/javascript">
+
+        $( document ).ready(function() {
+            var currentDate =  new Date();
+            var year = currentDate.getFullYear();
+            var month = currentDate.getMonth() + 1;
+            var day = currentDate.getDate();
+            document.getElementById("fechaLbl").innerHTML = day + " / " + month + " / " + year;
+            document.getElementById("horaLbl").innerHTML = formatAMPM(currentDate);
+
+            $( "#identificarDiv" ).hide();
+            $( "#acumularFacturaDiv" ).hide();
+            $( "#acumularRespuestaDiv" ).hide();
+            $( ".loader" ).hide();
+            $( "#acumularFacturaBtns").show();
+
+            //Pago con millas
+            $( "#pagoMillasDiv" ).hide();
+            $( "#millasVoucherFacturaBtns" ).hide();
+
+            //Pago con voucher
+            $( "#pagoVoucherDiv" ).hide();
+            $( "#voucherFacturaSubTitleDiv" ).hide();
+
+            Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.Ter_TDC_Home_Ctr.getInitData}',
+                    function(result, event) {
+                        if (event.status) {
+                            $("#nombreTienda").text(result.strNombreTienda);
+                            valorMilla = result.decValorMilla;
+                        }
+                        else if (event.type === 'exception') {
+                        } 
+                        else {
+                        }
+                    }, 
+                    {escape: true}
+                );
+        });
+
+        function identificar() {
+            showLoader(true);
+            var tipoDocumento = $("#tipoDocumento").val();
+            var numeroDocumento = $("#documento").val();
+
+            Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.Ter_TDC_Home_Ctr.validarCliente}',
+                    tipoDocumento,
+                    numeroDocumento,
+                    function(result, event) {
+                        if (event.status) {
+                            resultWrapper = result;
+                            showFidelizar(result);
+                        }
+                        else if (event.type === 'exception') {
+                        } 
+                        else {
+                        }
+                    }, 
+                    {escape: true}
+                );
+        }
+
+        function guardarVenta(btnId) {
+            var numFactura = $("#numFactura").val();
+            if(numFactura.length==8) {
+                showLoader(true);
+                
+                resultWrapper.strNumeroFactura = numFactura;
+
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.Ter_TDC_Home_Ctr.guardarVenta}',
+                        resultWrapper,
+                        function(result, event) {
+                                resultWrapper = result;
+                                showResultado(result, btnId);
+                        }, 
+                        {escape: true}
+                    );
+            }
+            else {
+                alert("Número inválido – Los números de factura que se ingresen deben tener ocho (8) caracteres, recuerda incluir todos los ceros (0).");
+            }
+        }
+
+        function validarVoucher() {
+            var numVoucher = $("#numeroVoucher").val();
+            showLoader(true);
+            Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.Ter_TDC_Home_Ctr.validarVoucher}',
+                        numVoucher,
+                        function(result, event) {
+                                resultWrapper = result;
+                                continuarVoucher();
+                        }, 
+                        {escape: true}
+                    );
+        }
+
+        function validarMillas() {
+            var montoAPagar = $("#montoAPagar").val();
+            var montoMillas = $("#montoMillas").text();
+            console.log("MontoMillas: "+montoMillas);
+            var tipoDocumento = $("#tipoDocumentoMillas").val();
+            var numeroDocumento = $("#documentoMillas").val();
+            var pinMillas = $("#pinMillas").val();
+            showLoader(true);
+            Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.Ter_TDC_Home_Ctr.validarMillas}',
+                        montoAPagar,montoMillas,tipoDocumento,numeroDocumento,pinMillas,
+                        function(result, event) {
+                                resultWrapper = result;
+                                continuarMillas();
+                        }, 
+                        {escape: true}
+                    );
+        }
+    </script>
+</head>
+
+    <apex:form >
+
+        <div>
+            <apex:image styleClass="logoTerpelHome" value="{!$Resource.LogoClubTerpel}" width="172" height="95" />
+            <div>
+                <H1 id="nombreTienda">Tienda de conveniencia</H1>
+                <label id="fechaLbl" class="fechaCls"></label>
+                <label id="horaLbl" class="fechaCls"></label>
+            </div>
+        </div>
+
+        <div class="menu">
+            <button type="button" class="boton menuBtn" onclick="acumular();" id="acumularBtn">Acumular</button>
+            <button type="button" class="boton menuBtn" onclick="pagoMillas();" id="pagoMillasBtn">Pago con millas</button>
+            <button type="button" class="boton menuBtn" onclick="pagoVoucher();" id="pagoVoucherBtn">Pago con voucher</button>
+            <button type="button" class="boton menuBtn" onclick="logout();">Cerrar sesión</button>
+        </div>
+
+        <div class="content">
+            <apex:image styleClass="logoAlToque" value="{!$Resource.LogoAlToque}" id="logoImg"/>
+
+
+            <div class="contentAcumular" id="identificarDiv">
+                <div>
+                    <label for="tipoDocumento" class="titulos">Tipo de documento</label>
+                    <div class="styled-select slate">
+                        <select id="tipoDocumento">
+                            <option value="Cédula de ciudadanía">Cédula ciudadanía</option>
+                            <option value="Cédula de Extranjería">Cédula extranjería</option>
+                            <option value="Pasaporte">Pasaporte</option>
+                            <option value="TPI">Tarjeta preinscrita</option>
+                            <option value="NLM">Número LifeMiles</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label for="documento" class="titulos">Número de documento</label>
+                    <input type="text" id="documento" class="fieldValue"/>
+                </div>
+                <div class="formBtns">
+                    <button type="button" class="boton" onclick="cancelarBtn();">Cancelar</button>
+                    <button type="button" class="boton" id="continuarBtn" onclick="identificar();">Continuar</button>
+                </div>
+            </div>
+
+
+            <div class="contentAcumular" id="acumularFacturaDiv">
+                <div>
+                    <H1 id="memberName">Felipe Perez</H1>
+                    <label class="subtitle" id="memberInfo">Cédula de Ciudadanía - 1.028.345.678</label>
+                </div>
+                <div id="voucherFacturaSubTitleDiv">
+                    <H1 id="montoTituloVoucher">MONTO</H1>
+                    <label class="subtitle" id="montoVoucher">COP $5000</label>
+                </div>
+                <div class="facturaFields">
+                    <div>
+                        <label class="titulos">Tienda</label>
+                        <label class="fieldValue boldTxt" id="codTienda">TC77</label>
+                    </div>
+                    <div>
+                        <label for="numFactura" class="titulos">Número de factura</label>
+                        <input class="fieldValue" type="text" id="numFactura"/>
+                    </div>
+
+                    <div class="formBtns" id="acumularFacturaBtns">
+                        <button type="button" class="boton" onclick="acumular();">Identificar de nuevo</button>
+                        <button type="button" class="boton" onclick="cancelarBtn();">Cancelar</button>
+                        <button type="button" class="boton" onclick="guardarVenta(FIDELIZAR_BTN);">Fidelizar</button>
+                    </div>
+
+                    <div id="millasVoucherFacturaBtns">
+                        <h1>¿Desea fidelizar esta transacción?</h1>
+                        <div class="formBtns btnsCenter">
+                            <button type="button" class="boton" onclick="guardarVenta(NO_BTN);">No</button>
+                            <button type="button" class="boton" onclick="guardarVenta(SI_BTN);">Si</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contentAcumular" id="acumularRespuestaDiv">
+                <div>
+                    <H1 id="memberNameResultado"></H1>
+                    <label class="subtitle" id="memberTiendaFactura"></label>
+                    <label class="result" id="memberMessage"></label>
+                </div>
+                <button type="button" class="boton" onclick="cancelarBtn();">Terminar</button>
+            </div>
+
+
+
+            <!-- ************************************** MENU PAGO CON MILLAS ********************************************* -->
+            <div class="contentAcumular" id="pagoMillasDiv">
+                <div>
+                    <label for="montoAPagar" class="titulos">Monto a pagar (COP)</label>
+                    <input type="number" id="montoAPagar" class="fieldValue"/>
+                </div>
+                <div class="internalDiv">
+                    <label class="titulos">Monto en millas</label>
+                    <label class="fieldValue boldTxt" id="montoMillas"></label>
+                </div>
+                <div class="internalDiv">
+                    <label for="tipoDocumentoMillas" class="titulos">Tipo de documento</label>
+                    <div class="styled-select slate">
+                        <select id="tipoDocumentoMillas">
+                            <option value="Cédula de ciudadanía">Cédula ciudadanía</option>
+                            <option value="Cédula de Extranjería">Cédula extranjería</option>
+                            <option value="Pasaporte">Pasaporte</option>
+                            <option value="TPI">Tarjeta preinscrita</option>
+                            <option value="NLM">Número LifeMiles</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="internalDiv">
+                    <label for="documentoMillas" class="titulos">Número de documento</label>
+                    <input type="text" id="documentoMillas" class="fieldValue"/>
+                </div>
+
+                <div class="internalDiv">
+                    <label for="pinMillas" class="titulos">PIN</label>
+                    <input class="fieldValue" type="password" name="pinMillas" id="pinMillas"/>
+                </div>
+                
+                <div class="formBtns">
+                    <button type="button" class="boton" onclick="cancelarBtn();">Cancelar</button>
+                    <button type="button" class="boton" id="millasContinuarBtn" onclick="validarMillas();">Continuar</button>
+                </div>
+            </div>
+
+
+            <!-- ************************************** MENU PAGO CON VOUCHER ********************************************* -->
+             <div class="contentAcumular" id="pagoVoucherDiv">
+                <div>
+                    <label for="numeroVoucher" class="titulos">Número de voucher</label>
+                    <input type="text" id="numeroVoucher" class="fieldValue"/>
+                </div>
+
+                <div class="formBtns">
+                    <button type="button" class="boton" onclick="cancelarBtn();">Cancelar</button>
+                    <button type="button" class="boton" id="millasContinuarBtn" onclick="validarVoucher();">Continuar</button>
+                </div>
+            </div>
+
+            <div class="loader"></div>
+
+        </div>
+
+        <apex:actionFunction action="{!logout}" name="logoutActionF">
+        </apex:actionFunction>
+    </apex:form>
+</apex:page>

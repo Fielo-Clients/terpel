@@ -1,0 +1,65 @@
+<apex:component controller="Widget3API" layout="none" allowDML="true">
+    <apex:attribute name="config" type="FieloCMS__Component__c" description="" />
+    <div class="{!config['FieloCMS__ComponentLibrary__r']['FieloCMS__CSSClasses__c']} {!config['FieloCMS__CSSClasses__c']}" data-componentid="{! config['Id'] }"  data-component-name="{!LOWER(SUBSTITUTE(config['FieloCMS__ComponentLibrary__r']['Name'],' ','-'))}">
+    
+        <c:ActionStatus />
+        <apex:form >
+        
+            <apex:panelGroup layout="none" id="contact-form">
+                
+                <div class="mdl-grid fielo-row">
+                    <div class="mdl-cell mdl-cell--6-col fielo-cell">
+                        <apex:panelGroup layout="none" rendered="{!fMember == null}">
+                            <label>{!$ObjectType.Fielo_Contactenos__c.fields.F_Nombre__c.Label}</label>
+                            <apex:inputText styleClass="input" value="{!fNombre}" />
+                        </apex:panelGroup>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col fielo-cell">
+                        <apex:panelGroup layout="none" rendered="{!fMember == null}">
+                            <label>{!$ObjectType.Fielo_Contactenos__c.fields.F_Email__c.Label}</label>
+                            <apex:inputText styleClass="input" value="{!fEmail}" />
+                        </apex:panelGroup>
+                    </div>
+                </div>
+                
+                <div class="mdl-grid fielo-row">
+                    <div class="mdl-cell mdl-cell--6-col fielo-cell">
+                        <label>{!$ObjectType.Fielo_Contactenos__c.fields.F_Asunto__c.Label}</label>
+                        <apex:inputText styleClass="input" value="{!fAsunto}" />
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col fielo-cell">
+                        <apex:panelGroup layout="none" rendered="{!fMember == null}">
+                            <label>{!$ObjectType.Fielo_Contactenos__c.fields.F_NumeroTelefono__c.Label}</label>
+                            <apex:inputText styleClass="input" value="{!fTelefono}" />
+                        </apex:panelGroup>
+                    </div>
+                </div>
+                
+                <div class="mdl-grid fielo-row">
+                    <div class="mdl-cell mdl-cell--12-col fielo-cell">
+                        <label>{!$ObjectType.Fielo_Contactenos__c.fields.F_Descripcion__c.Label}</label>
+                        <apex:inputTextarea styleClass="input" value="{!fDescripcion}" />
+                    </div>
+                </div>
+                
+                <div class="mdl-grid fielo-row" style="margin-top: 20px;">
+                    <div class="mdl-cell mdl-cell--12-col fielo-cell" style="text-align: right">
+                        <apex:commandButton styleClass="btn btnRed" value="Enviar" action="{!enviar}" reRender="contact-form" status="loading"/>
+                    </div>
+                </div>
+                
+                <apex:outputPanel layout="block" rendered="{!fMsgError != null}">
+                        {!fMsgError}
+                        <!-- modal erro com variavel fMsgError de mensagem -->
+                    </apex:outputPanel>
+
+                    <apex:outputPanel layout="block" rendered="{!fMsgInfo != null}">
+                        {!fMsgInfo}
+                        <!-- modal de sucesso com variavel fMsgInfo de mensagem -->
+                    </apex:outputPanel>
+            
+            </apex:panelGroup>
+        </apex:form>
+    
+    </div>   
+</apex:component>
